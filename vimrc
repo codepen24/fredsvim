@@ -19,8 +19,12 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+
+
+Plug 'morhetz/gruvbox'
 Plug 'crusoexia/vim-monokai'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 Plug 'Shougo/neocomplcache.vim'
 
@@ -83,9 +87,9 @@ set guioptions=egmrti
 set gfn=Monospace\ 10
 
 "" Encoding
-set encoding=utf-8
-set fileencoding=utf-8
-set fileencodings=utf-8
+"set encoding=utf-8
+"set fileencoding=utf-8
+"set fileencodings=utf-8
 set bomb "set binary "carefull activating this, since this my generate  charactersss
 set ttyfast
 
@@ -312,6 +316,36 @@ let g:airline#extensions#virtualenv#enabled = 1
 
 
 
+let g:indentLine_setColors = 0
+
+
+let g:indentLine_char = 'c'
+
+" Vim
+let g:indentLine_color_term = 239
+
+" GVim
+let g:indentLine_color_gui = '#A4E57E'
+
+" none X terminal
+let g:indentLine_color_tty_light = 7 " (default: 4)
+let g:indentLine_color_dark = 1 " (default: 2)
+
+" Background (Vim, GVim)
+let g:indentLine_bgcolor_term = 202
+let g:indentLine_bgcolor_gui = '#FF5F00'
+
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+
+let g:indentLine_concealcursor = 'inc'
+let g:indentLine_conceallevel = 2
+
+let g:indentLine_setConceal = 1
+
+let g:indentLine_enabled = 1
+
+
+
 
 
 
@@ -325,6 +359,9 @@ let g:airline#extensions#virtualenv#enabled = 1
 set background=dark 
 
 set wildmode=list:longest
+
+set cursorcolumn
+set cursorline
 
 set number
 set norelativenumber  " turn relative line numbers off
@@ -357,9 +394,10 @@ endif
 
 let g:netrw_dirhistmax=0 "disable it from creating netrw file
 
-"colorscheme gruvbox
+colorscheme gruvbox
 "colorscheme monokai
-colorscheme PaperColor
+"colorscheme PaperColor
+"colorscheme dracula
 
 map <C-Up> :vertical resize +10<CR>
 map <C-Down> :vertical resize -10<CR>
