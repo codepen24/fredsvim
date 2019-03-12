@@ -19,44 +19,26 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-
-
 Plug 'morhetz/gruvbox'
 Plug 'crusoexia/vim-monokai'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'dracula/vim', { 'as': 'dracula' }
-
 Plug 'Shougo/neocomplcache.vim'
-
 Plug 'mattn/emmet-vim' 
-
 Plug 'vim-airline/vim-airline' 
 Plug 'vim-airline/vim-airline-themes' 
-
 Plug 'scrooloose/syntastic' 
-
 Plug 'airblade/vim-gitgutter'
-
 Plug 'Raimondi/delimitMate'
-
 Plug 'majutsushi/tagbar'
-
 Plug 'Yggdroot/indentLine'
-
 Plug 'vim-scripts/grep.vim' 
-
 Plug 'gorodinskiy/vim-coloresque' 
-
 Plug 'vim-scripts/c.vim', {'for': ['c', 'cpp']}
-
 Plug 'ludwig/split-manpage.vim'
-
 Plug 'hail2u/vim-css3-syntax'
-
 Plug 'tpope/vim-haml'
-
 Plug 'jelera/vim-javascript-syntax'
-
 Plug 'arnaud-lb/vim-php-namespace'
 
 call plug#end()

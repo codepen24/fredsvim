@@ -143,38 +143,36 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
+"0	CHAR	0
 	"
-|3,1,0,0,1,0,1552382981,"\""
-"1	LINE	0
-	set termguicolors
-|3,0,1,1,1,0,1552382856,"set termguicolors"
+|3,0,0,0,1,0,1552382981,"\""
+""1	LINE	0
+	
+|3,1,1,1,1,0,1552383383,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1552382786,""
+|3,0,2,1,1,0,1552383383,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1552379947,""
+|3,0,3,1,1,0,1552383380,""
 "4	LINE	0
-	    font-family: Montserrat;
-|3,0,4,1,1,0,1552379942,"    font-family: Montserrat;"
+	
+|3,0,4,1,1,0,1552383380,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1552379936,""
+|3,0,5,1,1,0,1552383379,""
 "6	LINE	0
-	    background: #f21f20c2;
-|3,0,6,1,1,0,1552379929,"    background: #f21f20c2;"
+	
+|3,0,6,1,1,0,1552383378,""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1552379912,""
+|3,0,7,1,1,0,1552383378,""
 "8	LINE	0
-	    padding: .5em .5em .5em 1em;
-	    cursor: pointer;
-	    color: #fff;
-|3,0,8,1,3,0,1552379905,"    padding: .5em .5em .5em 1em;","    cursor: pointer;","    color: #fff;"
+	
+|3,0,8,1,1,0,1552383377,""
 "9	LINE	0
-	    border: solid 1px #f21f20c2;
-|3,0,9,1,1,0,1552379873,"    border: solid 1px #f21f20c2;"
+	
+|3,0,9,1,1,0,1552383377,""
 "-	CHAR	0
 	"
 |3,0,36,0,1,0,1552382967,"\""
@@ -183,29 +181,35 @@ $
 '0  1  1  ~/.vim/vimrc
 |4,48,1,1,1552382995,"~/.vim/vimrc"
 '1  1  1  ~/.vim/vimrc
-|4,49,1,1,1552382976,"~/.vim/vimrc"
+|4,49,1,1,1552382995,"~/.vim/vimrc"
 '2  1  1  ~/.vim/vimrc
-|4,50,1,1,1552381941,"~/.vim/vimrc"
+|4,50,1,1,1552382976,"~/.vim/vimrc"
 '3  1  1  ~/.vim/vimrc
-|4,51,1,1,1552381941,"~/.vim/vimrc"
-'4  34  2  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,52,34,2,1552381533,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
-'5  34  2  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,53,34,2,1552381533,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
-'6  23  31  /c/wamp64/www/devs/hcscleaning/wp-config.php
-|4,54,23,31,1552381433,"/c/wamp64/www/devs/hcscleaning/wp-config.php"
-'7  23  31  /c/wamp64/www/devs/hcscleaning/wp-config.php
-|4,55,23,31,1552381433,"/c/wamp64/www/devs/hcscleaning/wp-config.php"
-'8  8  15  /c/wamp64/www/devs/ivy/fred.js
-|4,56,8,15,1552381410,"/c/wamp64/www/devs/ivy/fred.js"
-'9  1  1  ~/.vim/vimrc
-|4,57,1,1,1552381306,"~/.vim/vimrc"
+|4,51,1,1,1552382976,"~/.vim/vimrc"
+'4  1  1  ~/.vim/vimrc
+|4,52,1,1,1552381941,"~/.vim/vimrc"
+'5  1  1  ~/.vim/vimrc
+|4,53,1,1,1552381941,"~/.vim/vimrc"
+'6  1  1  ~/.vim/vimrc
+|4,54,1,1,1552381941,"~/.vim/vimrc"
+'7  1  1  ~/.vim/vimrc
+|4,55,1,1,1552381941,"~/.vim/vimrc"
+'8  34  2  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
+|4,56,34,2,1552381533,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
+'9  34  2  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
+|4,57,34,2,1552381533,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
 
 # Jumplist (newest first):
 -'  1  1  ~/.vim/vimrc
+|4,39,1,1,1552383345,"~/.vim/vimrc"
+-'  1  1  ~/.vim/vimrc
 |4,39,1,1,1552382995,"~/.vim/vimrc"
 -'  1  1  ~/.vim/vimrc
 |4,39,1,1,1552382995,"~/.vim/vimrc"
+-'  1  0  /c/wamp64/www/devs
+|4,39,1,0,1552382981,"/c/wamp64/www/devs"
+-'  1  0  /c/wamp64/www/devs
+|4,39,1,0,1552382981,"/c/wamp64/www/devs"
 -'  1  0  /c/wamp64/www/devs
 |4,39,1,0,1552382981,"/c/wamp64/www/devs"
 -'  1  0  /c/wamp64/www/devs
@@ -214,6 +218,8 @@ $
 |4,39,1,1,1552382976,"~/.vim/vimrc"
 -'  1  1  ~/.vim/vimrc
 |4,39,1,1,1552382976,"~/.vim/vimrc"
+-'  379  12  ~/.vim/vimrc
+|4,39,379,12,1552382975,"~/.vim/vimrc"
 -'  397  12  ~/.vim/vimrc
 |4,39,397,12,1552382975,"~/.vim/vimrc"
 -'  397  12  ~/.vim/vimrc
@@ -222,6 +228,8 @@ $
 |4,39,397,12,1552382975,"~/.vim/vimrc"
 -'  397  12  ~/.vim/vimrc
 |4,39,397,12,1552382975,"~/.vim/vimrc"
+-'  22  14  ~/.vim/vimrc
+|4,39,22,14,1552382958,"~/.vim/vimrc"
 -'  24  14  ~/.vim/vimrc
 |4,39,24,14,1552382958,"~/.vim/vimrc"
 -'  24  14  ~/.vim/vimrc
@@ -230,6 +238,8 @@ $
 |4,39,24,14,1552382958,"~/.vim/vimrc"
 -'  24  14  ~/.vim/vimrc
 |4,39,24,14,1552382958,"~/.vim/vimrc"
+-'  21  0  ~/.vim/vimrc
+|4,39,21,0,1552382922,"~/.vim/vimrc"
 -'  23  0  ~/.vim/vimrc
 |4,39,23,0,1552382922,"~/.vim/vimrc"
 -'  23  0  ~/.vim/vimrc
@@ -238,6 +248,8 @@ $
 |4,39,23,0,1552382922,"~/.vim/vimrc"
 -'  23  0  ~/.vim/vimrc
 |4,39,23,0,1552382922,"~/.vim/vimrc"
+-'  378  0  ~/.vim/vimrc
+|4,39,378,0,1552382915,"~/.vim/vimrc"
 -'  396  0  ~/.vim/vimrc
 |4,39,396,0,1552382915,"~/.vim/vimrc"
 -'  396  0  ~/.vim/vimrc
@@ -246,6 +258,8 @@ $
 |4,39,396,0,1552382915,"~/.vim/vimrc"
 -'  396  0  ~/.vim/vimrc
 |4,39,396,0,1552382915,"~/.vim/vimrc"
+-'  380  0  ~/.vim/vimrc
+|4,39,380,0,1552382912,"~/.vim/vimrc"
 -'  398  0  ~/.vim/vimrc
 |4,39,398,0,1552382912,"~/.vim/vimrc"
 -'  398  0  ~/.vim/vimrc
@@ -254,6 +268,8 @@ $
 |4,39,398,0,1552382912,"~/.vim/vimrc"
 -'  398  0  ~/.vim/vimrc
 |4,39,398,0,1552382912,"~/.vim/vimrc"
+-'  310  17  ~/.vim/vimrc
+|4,39,310,17,1552382847,"~/.vim/vimrc"
 -'  328  17  ~/.vim/vimrc
 |4,39,328,17,1552382847,"~/.vim/vimrc"
 -'  328  17  ~/.vim/vimrc
@@ -262,6 +278,8 @@ $
 |4,39,328,17,1552382847,"~/.vim/vimrc"
 -'  328  17  ~/.vim/vimrc
 |4,39,328,17,1552382847,"~/.vim/vimrc"
+-'  307  17  ~/.vim/vimrc
+|4,39,307,17,1552382845,"~/.vim/vimrc"
 -'  325  17  ~/.vim/vimrc
 |4,39,325,17,1552382845,"~/.vim/vimrc"
 -'  325  17  ~/.vim/vimrc
@@ -270,6 +288,10 @@ $
 |4,39,325,17,1552382845,"~/.vim/vimrc"
 -'  325  17  ~/.vim/vimrc
 |4,39,325,17,1552382845,"~/.vim/vimrc"
+-'  188  70  ~/.vim/vimrc
+|4,39,188,70,1552382844,"~/.vim/vimrc"
+-'  153  158  ~/.vim/vimrc
+|4,39,153,158,1552382844,"~/.vim/vimrc"
 -'  206  70  ~/.vim/vimrc
 |4,39,206,70,1552382844,"~/.vim/vimrc"
 -'  171  158  ~/.vim/vimrc
@@ -286,6 +308,8 @@ $
 |4,39,206,70,1552382844,"~/.vim/vimrc"
 -'  171  158  ~/.vim/vimrc
 |4,39,171,158,1552382844,"~/.vim/vimrc"
+-'  126  16  ~/.vim/vimrc
+|4,39,126,16,1552382843,"~/.vim/vimrc"
 -'  144  16  ~/.vim/vimrc
 |4,39,144,16,1552382843,"~/.vim/vimrc"
 -'  144  16  ~/.vim/vimrc
@@ -294,6 +318,10 @@ $
 |4,39,144,16,1552382843,"~/.vim/vimrc"
 -'  144  16  ~/.vim/vimrc
 |4,39,144,16,1552382843,"~/.vim/vimrc"
+-'  36  22  ~/.vim/vimrc
+|4,39,36,22,1552382842,"~/.vim/vimrc"
+-'  24  21  ~/.vim/vimrc
+|4,39,24,21,1552382842,"~/.vim/vimrc"
 -'  48  22  ~/.vim/vimrc
 |4,39,48,22,1552382842,"~/.vim/vimrc"
 -'  26  21  ~/.vim/vimrc
@@ -318,6 +346,22 @@ $
 |4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
 -'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
 |4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
+-'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
+|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
+-'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
+|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
+-'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
+|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
+-'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
+|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
+-'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
+|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
+-'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
+|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
+-'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
+|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
+-'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
+|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
 -'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
 |4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
 -'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
@@ -334,6 +378,14 @@ $
 |4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
 -'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
 |4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
+-'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
+|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
+-'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
+|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
+-'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
+|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
+-'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
+|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
 -'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
 |4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
 -'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
@@ -342,170 +394,118 @@ $
 |4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
 -'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
 |4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
--'  12  0  /c/wamp64/www/devs/hcscleaning
-|4,39,12,0,1552381961,"/c/wamp64/www/devs/hcscleaning"
--'  12  0  /c/wamp64/www/devs/hcscleaning
-|4,39,12,0,1552381961,"/c/wamp64/www/devs/hcscleaning"
--'  12  0  /c/wamp64/www/devs/hcscleaning
-|4,39,12,0,1552381961,"/c/wamp64/www/devs/hcscleaning"
--'  12  0  /c/wamp64/www/devs/hcscleaning
-|4,39,12,0,1552381961,"/c/wamp64/www/devs/hcscleaning"
--'  43  31  /c/wamp64/www/devs/hcscleaning/wp-config.php
-|4,39,43,31,1552381959,"/c/wamp64/www/devs/hcscleaning/wp-config.php"
--'  43  31  /c/wamp64/www/devs/hcscleaning/wp-config.php
-|4,39,43,31,1552381959,"/c/wamp64/www/devs/hcscleaning/wp-config.php"
--'  43  31  /c/wamp64/www/devs/hcscleaning/wp-config.php
-|4,39,43,31,1552381959,"/c/wamp64/www/devs/hcscleaning/wp-config.php"
--'  43  31  /c/wamp64/www/devs/hcscleaning/wp-config.php
-|4,39,43,31,1552381959,"/c/wamp64/www/devs/hcscleaning/wp-config.php"
--'  1  0  /c/wamp64/www/devs
-|4,39,1,0,1552381945,"/c/wamp64/www/devs"
--'  1  0  /c/wamp64/www/devs
-|4,39,1,0,1552381945,"/c/wamp64/www/devs"
--'  1  1  ~/.vim/vimrc
-|4,39,1,1,1552381941,"~/.vim/vimrc"
--'  1  1  ~/.vim/vimrc
-|4,39,1,1,1552381941,"~/.vim/vimrc"
--'  400  0  ~/.vim/vimrc
-|4,39,400,0,1552381940,"~/.vim/vimrc"
--'  400  0  ~/.vim/vimrc
-|4,39,400,0,1552381940,"~/.vim/vimrc"
--'  398  0  ~/.vim/vimrc
-|4,39,398,0,1552381940,"~/.vim/vimrc"
--'  400  0  ~/.vim/vimrc
-|4,39,400,0,1552381940,"~/.vim/vimrc"
--'  400  0  ~/.vim/vimrc
-|4,39,400,0,1552381940,"~/.vim/vimrc"
--'  398  0  ~/.vim/vimrc
-|4,39,398,0,1552381940,"~/.vim/vimrc"
--'  27  38  ~/.vim/vimrc
-|4,39,27,38,1552381886,"~/.vim/vimrc"
--'  25  38  ~/.vim/vimrc
-|4,39,25,38,1552381886,"~/.vim/vimrc"
--'  27  38  ~/.vim/vimrc
-|4,39,27,38,1552381886,"~/.vim/vimrc"
--'  25  38  ~/.vim/vimrc
-|4,39,25,38,1552381886,"~/.vim/vimrc"
--'  27  38  ~/.vim/vimrc
-|4,39,27,38,1552381886,"~/.vim/vimrc"
--'  25  38  ~/.vim/vimrc
-|4,39,25,38,1552381886,"~/.vim/vimrc"
--'  27  38  ~/.vim/vimrc
-|4,39,27,38,1552381886,"~/.vim/vimrc"
--'  25  38  ~/.vim/vimrc
-|4,39,25,38,1552381886,"~/.vim/vimrc"
--'  34  2  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,34,2,1552381533,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
--'  34  2  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,34,2,1552381533,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
--'  34  2  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,34,2,1552381533,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
+-'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
+|4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
+-'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
+|4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
 
 # History of marks within files (newest to oldest):
 
 > ~/.vim/vimrc
-	*	1552382995	0
-	"	1	1
-	^	397	13
-	.	397	12
-	+	359	0
-	+	359	20
-	+	381	28
-	+	394	0
-	+	400	0
-	+	366	0
-	+	374	11
-	+	400	0
-	+	427	9
-	+	1	0
-	+	5	0
-	+	3	0
-	+	2	1
-	+	5	0
-	+	4	0
-	+	318	0
-	+	318	11
-	+	337	31
-	+	350	27
-	+	317	0
-	+	318	29
-	+	350	0
-	+	318	0
-	+	318	28
-	+	337	30
-	+	318	0
-	+	318	1
-	+	318	0
-	+	318	38
-	+	318	29
-	+	337	32
-	+	337	30
-	+	318	29
-	+	318	32
-	+	318	0
-	+	318	31
-	+	346	0
-	+	350	0
-	+	337	0
-	+	351	4
-	+	351	0
-	+	352	0
-	+	337	0
-	+	346	0
-	+	349	0
-	+	350	0
-	+	363	0
-	+	364	14
-	+	318	0
-	+	346	0
-	+	318	0
-	+	364	14
-	+	365	0
-	+	364	14
-	+	365	0
-	+	346	0
-	+	365	0
-	+	318	0
-	+	337	0
+	*	1552383387	0
+	"	493	0
+	^	379	13
+	.	21	0
+	+	300	0
+	+	300	11
+	+	319	31
+	+	332	27
+	+	299	0
+	+	300	29
+	+	332	0
+	+	300	0
+	+	300	28
+	+	319	30
+	+	300	0
+	+	300	1
+	+	300	0
+	+	300	38
+	+	300	29
+	+	319	32
+	+	319	30
+	+	300	29
+	+	300	32
+	+	300	0
+	+	300	31
+	+	328	0
+	+	332	0
 	+	319	0
+	+	333	4
+	+	333	0
+	+	334	0
+	+	319	0
+	+	328	0
+	+	331	0
+	+	332	0
+	+	345	0
+	+	346	14
+	+	300	0
+	+	328	0
+	+	300	0
+	+	346	14
+	+	347	0
+	+	346	14
+	+	347	0
+	+	328	0
+	+	347	0
+	+	300	0
+	+	319	0
+	+	301	0
+	+	302	0
+	+	322	0
 	+	320	0
-	+	340	0
-	+	338	0
-	+	90	0
-	+	91	0
-	+	92	0
-	+	340	0
-	+	345	28
-	+	346	0
-	+	320	0
-	+	322	27
-	+	346	0
-	+	344	31
-	+	346	0
-	+	343	0
-	+	337	0
-	+	349	0
-	+	349	30
-	+	349	0
-	+	343	30
-	+	322	25
+	+	72	0
+	+	73	0
+	+	74	0
+	+	322	0
+	+	327	28
+	+	328	0
+	+	302	0
+	+	304	27
+	+	328	0
+	+	326	31
+	+	328	0
+	+	325	0
+	+	319	0
+	+	331	0
+	+	331	30
+	+	331	0
+	+	325	30
+	+	304	25
 	+	21	0
-	+	24	0
-	+	397	0
-	+	399	0
-	+	26	33
+	+	22	0
+	+	379	0
+	+	381	0
+	+	24	33
+	+	25	0
+	+	382	12
+	+	379	1
+	+	382	0
+	+	21	0
+	+	22	0
+	+	378	0
+	+	379	0
+	+	22	0
+	+	379	13
+	+	382	0
+	+	379	12
+	+	26	0
 	+	27	0
-	+	400	12
-	+	397	1
-	+	400	0
-	+	23	0
-	+	24	0
-	+	396	0
-	+	397	0
-	+	24	0
-	+	397	13
-	+	400	0
-	+	397	12
+	+	28	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	21	0
 
 > /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
 	*	1552382772	0
