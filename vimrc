@@ -73,7 +73,7 @@ set gfn=Monospace\ 10
 "set fileencoding=utf-8
 "set fileencodings=utf-8
 set bomb 
-"set binary "carefull activating this, since this my generate charactersss
+"set binary "carefull activating this, since this my generate characters
 set ttyfast
 
 "" Fix backspace indent
