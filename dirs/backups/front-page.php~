@@ -1,0 +1,84 @@
+<?php
+/**
+ * The template for displaying front page.
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
+ *
+ * @package PWD Default Theme
+ * @since PWD Default Theme 1.0
+ */
+
+get_header(); ?>
+
+<?php get_template_part( 'inc/custom', 'cta' ); ?>
+
+<div id="welcome">
+	<div class="warp">
+		<div id="front-page" class="front-content" role="main">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php get_template_part( 'content', 'page' ); ?>
+			<?php endwhile;  ?>
+		</div> <!-- #front-page .site-content -->
+	</div>
+</div>
+
+<div class="clear"></div>
+
+<div class="warp  margin-top">
+
+	<div class="bg">
+		<div class="home-col-left">
+
+			<?php get_template_part( 'inc/custom', 'blog' ); ?>
+
+			<div class="interested">
+				<p>Interested? Call (08 9244 5323), email (<a href="mailto:info@dvinetours.com.au">info@dvinetours.com.au</a>) or send us a message using the contact form below.</p>
+			</div>
+
+			<?php echo do_shortcode( '[gravityform id=1 title=false description=false ajax=false]' ); ?>
+
+			<p>&nbsp;</p>
+
+			<?php get_template_part( 'inc/custom', 'tripadvisor' ); ?>
+<div id="tripadvisor-certificates">
+		<div id="TA_certificateOfExcellence416" class="TA_certificateOfExcellence">
+<ul id="tjtoPNfD081k" class="TA_links VRrUVK6J6c">
+<li id="SmpHYajXSFGj" class="6UAVvG8jt">
+<a target="_blank" href="https://www.tripadvisor.com.au/Attraction_Review-g255103-d5999307-Reviews-D_Vine_Wine_Tours-Perth_Greater_Perth_Western_Australia.html"><img src="https://www.tripadvisor.com.au/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+</li>
+</ul>
+</div>
+<script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=416&amp;locationId=5999307&amp;lang=en_AU&amp;year=2016&amp;display_version=2"></script>
+<div id="TA_certificateOfExcellence117" class="TA_certificateOfExcellence">
+<ul id="hMiccjdQ" class="TA_links 4XtUo4WsNYWX">
+<li id="IX29f04mgzs" class="UW6zm2NshW">
+<a target="_blank" href="https://www.tripadvisor.com.au/Attraction_Review-g255103-d5999307-Reviews-D_Vine_Wine_Tours-Perth_Greater_Perth_Western_Australia.html"><img src="https://www.tripadvisor.com.au/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+</li>
+</ul>
+</div>
+<script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=117&amp;locationId=5999307&amp;lang=en_AU&amp;year=2017&amp;display_version=2"></script>
+
+<div id="TA_certificateOfExcellence493" class="TA_certificateOfExcellence">
+<ul id="DfPZlW" class="TA_links hw2kFHlgaDO1">
+<li id="2t0zwaHBC" class="CV0eMy4oEp">
+<a target="_blank" href="https://www.tripadvisor.com.au/Attraction_Review-g255103-d5999307-Reviews-D_Vine_Wine_Tours-Perth_Greater_Perth_Western_Australia.html"><img src="https://www.tripadvisor.com.au/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+</li>
+</ul>
+</div>
+<script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=493&amp;locationId=5999307&amp;lang=en_AU&amp;year=2018&amp;display_version=2"></script>
+       </div><!-- end tripadvisor-certificates-->     
+		</div>
+
+		<div class="home-col-right">
+			<?php get_template_part( 'inc/custom', 'testimonial' ); ?>           
+		</div>
+
+		<div class="clear"></div>
+
+	</div>
+</div>   
+<?php //get_sidebar(); ?>
+<?php get_footer('new'); ?>

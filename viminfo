@@ -11,14 +11,81 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/gruv
+~MSle0~/done
+
+# Last Substitute Search Pattern:
+~MSle0&https:\/\/dev.dvinetours
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :PlugInstall
-|2,0,1552381913,,"PlugInstall"
+|2,0,1553225510,,"PlugInstall"
+:r!start .
+|2,0,1553218424,,"r!start ."
+:cd dvinetours/wp-content/themes/dwt/
+|2,0,1553218420,,"cd dvinetours/wp-content/themes/dwt/"
+:vimgrep /slidercontainer/gj **/*.php
+|2,0,1553146734,,"vimgrep /slidercontainer/gj **/*.php"
+:%s/https:\/\/dev.dvinetours/http:\/\/dev.dvinetours/g
+|2,0,1553046050,,"%s/https:\\/\\/dev.dvinetours/http:\\/\\/dev.dvinetours/g"
+:cd dvinetours/
+|2,0,1553046018,,"cd dvinetours/"
+:r!start http://dev.dvinetours
+|2,0,1553045707,,"r!start http://dev.dvinetours"
+:%s/\\/\//g
+|2,0,1553045477,,"%s/\\\\/\\//g"
+:%s/\//\//g
+|2,0,1553045448,,"%s/\\//\\//g"
+:%s/\////g
+|2,0,1553045428,,"%s/\\////g"
+:%s/https:\/\/www.dvinetours.com.au/https:\/\/dev.dvinetours/g
+|2,0,1553045086,,"%s/https:\\/\\/www.dvinetours.com.au/https:\\/\\/dev.dvinetours/g"
+:%s/%20//g
+|2,0,1552557503,,"%s/%20//g"
+:vimgrep /register_pos/gj **/*.php
+|2,0,1552530000,,"vimgrep /register_pos/gj **/*.php"
+:vimgrep /register_cus/gj **/*.php
+|2,0,1552529988,,"vimgrep /register_cus/gj **/*.php"
+:vimgrep /custom_po/gj **/*.php
+|2,0,1552529964,,"vimgrep /custom_po/gj **/*.php"
+:cd broods/wp-content/themes/broods/
+|2,0,1552529956,,"cd broods/wp-content/themes/broods/"
+:set path=/c/wamp64/www/devs/broods/wp-content/themes/broods/
+|2,0,1552529890,,"set path=/c/wamp64/www/devs/broods/wp-content/themes/broods/"
+:find functions.php
+|2,0,1552529565,,"find functions.php"
+:r!start http://dev.broods
+|2,0,1552529192,,"r!start http://dev.broods"
+:sav /c/wamp64/www/devs/faf.sql
+|2,0,1552527893,,"sav /c/wamp64/www/devs/faf.sql"
+:sav /c/wamp64/www/devs/
+|2,0,1552527885,,"sav /c/wamp64/www/devs/"
+:sav dfasdfadf.db
+|2,0,1552527813,,"sav dfasdfadf.db"
+:%s/http:\/\/broods/http:\/\/dev.broods/g
+|2,0,1552527764,,"%s/http:\\/\\/broods/http:\\/\\/dev.broods/g"
+:%s/http:\/\/broods.onpressidium.com/http:\/\/broods/g
+|2,0,1552527725,,"%s/http:\\/\\/broods.onpressidium.com/http:\\/\\/broods/g"
+:cd broods/
+|2,0,1552526155,,"cd broods/"
+:r!mkdir broods
+|2,0,1552526149,,"r!mkdir broods"
+:r!
+|2,0,1552526138,,"r!"
+:%s/\$/jQuery/g
+|2,0,1552448674,,"%s/\\$/jQuery/g"
+:%s/$/jQuery/g
+|2,0,1552448651,,"%s/$/jQuery/g"
+:set filetype=javascript
+|2,0,1552447978,,"set filetype=javascript"
+:set path=/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/
+|2,0,1552443158,,"set path=/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/"
+:find stylei.css
+|2,0,1552441793,,"find stylei.css"
+:find style.css
+|2,0,1552441777,,"find style.css"
 :q!
 |2,0,1552378022,,"q!"
 :IndentLinesToggle
@@ -35,98 +102,186 @@ $
 |2,0,1552356209,,"vimgrep /xxx/gj **/*"
 
 # Search String History (newest to oldest):
+?/done
+|2,1,1553225519,47,"done"
+?/bomb
+|2,1,1553225449,47,"bomb"
+?/bombgg
+|2,1,1553225445,47,"bombgg"
+?/bombggVG
+|2,1,1553225440,47,"bombggVG"
+?/.textslid
+|2,1,1553218294,47,".textslid"
+?/.textslide
+|2,1,1553217958,47,".textslide"
 ? @$
-|2,1,1552382981,,"@$"
-?/gruv
-|2,1,1552382957,47,"gruv"
-?/sche
-|2,1,1552382847,47,"sche"
-?/color
-|2,1,1552382842,47,"color"
-?/colorsc
-|2,1,1552381929,47,"colorsc"
-?/gru
-|2,1,1552381243,47,"gru"
-?/h4.ui-accordion-header.ui-state-active
-|2,1,1552379655,47,"h4.ui-accordion-header.ui-state-active"
-?/h4.ui-accordion-header.ui-state-activ
-|2,1,1552379436,47,"h4.ui-accordion-header.ui-state-activ"
-?/$print
-|2,1,1552379184,47,"$print"
-?/printVal
-|2,1,1552379170,47,"printVal"
-?/inden
-|2,1,1552378796,47,"inden"
-?/inde/
-|2,1,1552378620,47,"inde/"
-?/ind
-|2,1,1552377907,47,"ind"
-?/g:indentLine_setColors 
-|2,1,1552377252,47,"g:indentLine_setColors "
-?/utf
-|2,1,1552376105,47,"utf"
-?/indent
-|2,1,1552374597,47,"indent"
-?/print
-|2,1,1552374434,47,"print"
-?/,,,,
-|2,1,1552374424,47,",,,,"
-?/mater
-|2,1,1552374266,47,"mater"
-?/material
-|2,1,1552374250,47,"material"
-?/indentLin
-|2,1,1552373033,47,"indentLin"
-?/g:indentLine_setConceal 
-|2,1,1552373030,47,"g:indentLine_setConceal "
-?/jj
-|2,1,1552372618,47,"jj"
-??>
-|2,1,1552371283,63,">"
-??>ijjujj
-|2,1,1552371212,63,">ijjujj"
-?/data
-|2,1,1552368556,47,"data"
-?/prima
-|2,1,1552368020,47,"prima"
-?/padding-bottom: 2em
-|2,1,1552362125,47,"padding-bottom: 2em"
-?/1200
-|2,1,1552362044,47,"1200"
-?/.bannerbg .left
-|2,1,1552362034,47,".bannerbg .left"
-?/asdasdf
-|2,1,1552361598,47,"asdasdf"
-?/servicelistBg
-|2,1,1552361526,47,"servicelistBg"
-?/992px
-|2,1,1552360686,47,"992px"
-?/.bordered_items.main-navigation .primary-menu > li
-|2,1,1552360667,47,".bordered_items.main-navigation .primary-menu > li"
-?/.navigation .right .booknowbtn
-|2,1,1552359741,47,".navigation .right .booknowbtn"
-?/1199px
-|2,1,1552359323,47,"1199px"
-?/margin-top: 40px;
-|2,1,1552359309,47,"margin-top: 40px;"
-?/margin-top: 45px
-|2,1,1552359013,47,"margin-top: 45px"
-?/header .headbtmrgt
-|2,1,1552358924,47,"header .headbtmrgt"
-?/wall
-|2,1,1552357223,47,"wall"
-?/auto
-|2,1,1552357032,47,"auto"
-?/monokai
-|2,1,1552356567,47,"monokai"
+|2,1,1553217953,,"@$"
+?/#inner-slidercontainer
+|2,1,1553150150,47,"#inner-slidercontainer"
+?/.slidercontainer
+|2,1,1553150002,47,".slidercontainer"
+?/before
+|2,1,1553148375,47,"before"
+?/slide
+|2,1,1553148080,47,"slide"
+?/requ
+|2,1,1553147926,47,"requ"
+?/custom-slide
+|2,1,1553147895,47,"custom-slide"
+?/custom
+|2,1,1553147886,47,"custom"
+?/require
+|2,1,1553146948,47,"require"
+?/emm
+|2,1,1553146840,47,"emm"
+?/,nf
+|2,1,1553146816,47,",nf"
+?/warp
+|2,1,1553138751,47,"warp"
+?/wrap
+|2,1,1553138747,47,"wrap"
+?/navbar-co
+|2,1,1553138307,47,"navbar-co"
+?/nav
+|2,1,1553137968,47,"nav"
+?/#cta-container
+|2,1,1553135287,47,"#cta-container"
+?/.siteinfo a
+|2,1,1553135235,47,".siteinfo a"
+?/media
+|2,1,1553133716,47,"media"
+?/#TA
+|2,1,1553133681,47,"#TA"
+?/tripad
+|2,1,1553133637,47,"tripad"
+?/AT
+|2,1,1553133630,47,"AT"
+?/AT_
+|2,1,1553133625,47,"AT_"
+?/#nav
+|2,1,1553133501,47,"#nav"
+?/#na
+|2,1,1553133496,47,"#na"
+?/min-wid
+|2,1,1553133288,47,"min-wid"
+?/#head
+|2,1,1553133166,47,"#head"
+?/.main-nav
+|2,1,1553132864,47,".main-nav"
+?/siteinfo
+|2,1,1553132164,47,"siteinfo"
+?/site-nav
+|2,1,1553131726,47,"site-nav"
+?/6477
+|2,1,1553130191,47,"6477"
+?/768
+|2,1,1553074052,47,"768"
+?/mobiletop
+|2,1,1553073828,47,"mobiletop"
+?//a
+|2,1,1553073785,47,"/a"
+?/info
+|2,1,1553073670,47,"info"
+?/#menu-item-755 a
+|2,1,1553070707,47,"#menu-item-755 a"
+?/#menu-item-754 a
+|2,1,1553070593,47,"#menu-item-754 a"
+?/138
+|2,1,1553070452,47,"138"
+?/#menu-item-10 a
+|2,1,1553068390,47,"#menu-item-10 a"
+?/pomp
+|2,1,1553067805,47,"pomp"
+?/.main-navigation ul ul a
+|2,1,1553067756,47,".main-navigation ul ul a"
+?/.main-na
+|2,1,1553067081,47,".main-na"
+?/.main-navigation .menu li a
+|2,1,1553067020,47,".main-navigation .menu li a"
+?/.main-navigation li
+|2,1,1553066826,47,".main-navigation li"
+?/#menu-item-14 a:hover
+|2,1,1553066677,47,"#menu-item-14 a:hover"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@inner-slidercontainer,cp  
+|2,3,1553146915,,"inner-slidercontainer,cp  "
+@Search
+|2,3,1553146714,,"Search"
 @*
-|2,3,1552381317,,"*"
+|2,3,1553146674,,"*"
+@/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/
+|2,3,1553146674,,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/"
+@slidercontainer
+|2,3,1553146671,,"slidercontainer"
+@List page Template
+|2,3,1553146004,,"List page Template"
+@Blogs Archive
+|2,3,1553145884,,"Blogs Archive"
+@Blog Archive Template
+|2,3,1553145868,,"Blog Archive Template"
+@Wineries
+|2,3,1553145811,,"Wineries"
+@instagram-wrapper
+|2,3,1553140630,,"instagram-wrapper"
+@site-footer
+|2,3,1553135996,,"site-footer"
+@footer-site
+|2,3,1553135955,,"footer-site"
+@dvinetours
+|2,3,1553044153,,"dvinetours"
+@/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/
+|2,3,1552893462,,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/"
+@col-lg-6 col-sm-6 col-xs-12
+|2,3,1552893458,,"col-lg-6 col-sm-6 col-xs-12"
+@.home .ServiceSection .servicelistBg
+|2,3,1552642331,,".home .ServiceSection .servicelistBg"
 @/c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/
-|2,3,1552381317,,"/c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/"
+|2,3,1552636853,,"/c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/"
+@h4.ui-accordion-header-collapsed
+|2,3,1552636843,,"h4.ui-accordion-header-collapsed"
+@id="accordion"
+|2,3,1552635366,,"id=\"accordion\""
+@/c/wamp64/www/devs/broods/wp-content/themes/broods/
+|2,3,1552627958,,"/c/wamp64/www/devs/broods/wp-content/themes/broods/"
+@top-banner
+|2,3,1552627955,,"top-banner"
+@our-story
+|2,3,1552549457,,"our-story"
+@front-page-sec
+|2,3,1552547456,,"front-page-sec"
+@featured-aside
+|2,3,1552535952,,"featured-aside"
+@options
+|2,3,1552533572,,"options"
+@register_op
+|2,3,1552533548,,"register_op"
+@pwd_get_option
+|2,3,1552533297,,"pwd_get_option"
+@footer-content
+|2,3,1552533096,,"footer-content"
+@stripsarea
+|2,3,1552532011,,"stripsarea"
+@.online-booking-form .gform_wrapper .first_section_tab .gform_fields .dayradioField ul.gfield_radio li
+|2,3,1552447510,,".online-booking-form .gform_wrapper .first_section_tab .gform_fields .dayradioField ul.gfield_radio li"
+@footer .menu-footer-menu-container ul li
+|2,3,1552447280,,"footer .menu-footer-menu-container ul li"
+@.online-booking-form .gform_wrapper #ginput_container_radio #input_5_13 li input[type=checkbox], input[type=radio] 
+|2,3,1552445860,,".online-booking-form .gform_wrapper #ginput_container_radio #input_5_13 li input[type=checkbox], input[type=radio] "
+@online-booking-form .gform_wrapper .first_section_tab .gform_fields .dayradioField ul.gfield_radio
+|2,3,1552445194,,"online-booking-form .gform_wrapper .first_section_tab .gform_fields .dayradioField ul.gfield_radio"
+@servicelistBg3
+|2,3,1552443256,,"servicelistBg3"
+@mobile-banner-holder.jpg
+|2,3,1552440495,,"mobile-banner-holder.jpg"
+@proxy
+|2,3,1552440398,,"proxy"
+@/c/wamp64/www/devs/hcscleaning/wp-content/themes/hc
+|2,3,1552440096,,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hc"
+@the_term_
+|2,3,1552384667,,"the_term_"
 @data-print
 |2,3,1552381313,,"data-print"
 @data-print\
@@ -143,369 +298,1468 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	"
-|3,0,0,0,1,0,1552382981,"\""
-""1	LINE	0
-	
-|3,1,1,1,1,0,1552383383,""
-"2	LINE	0
-	
-|3,0,2,1,1,0,1552383383,""
+"0	LINE	0
+	.page-id-927 .textslide {
+	    font-style: 88px;
+	}
+|3,0,0,1,3,0,1553218035,".page-id-927 .textslide {","    font-style: 88px;","}"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1552383380,""
+	    ddheight:250px; 
+|3,0,3,1,1,0,1553150200,"    ddheight:250px; "
 "4	LINE	0
-	
-|3,0,4,1,1,0,1552383380,""
+		float: left;
+|3,0,4,1,1,0,1553150006,"	float: left;"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1552383379,""
+	            <?php get_template_part( 'inc/custom', 'new-inner-slideshow' ); ?>
+|3,0,5,1,1,0,1553149680,"            <?php get_template_part( 'inc/custom', 'new-inner-slideshow' ); ?>"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1552383378,""
+|3,0,6,1,1,0,1553149544,""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1552383378,""
+|3,0,7,1,1,0,1553149417,""
 "8	LINE	0
+		<div id="featured-aside" class="site-featured featured-fullscreen">
 	
-|3,0,8,1,1,0,1552383377,""
+			<?php
+	
+			$header_image 			= get_header_image();
+			$header_image_width 	= get_custom_header()->width;
+			$header_image_height 	= get_custom_header()->height;
+	
+	260
+<		if ( is_singular() && has_post_thumbnail( $post->ID ) && ( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), array( $header_image_width, $header_image_height ) ) ) && $image[1] >= $header_image_width ) :
+					// Houston, we have a new header image!
+				$header_image =  $image[0]; 
+			endif;
+			?>
+			<div class="site-header-image-bg" style="width:100%; height:<?php echo $header_image_height; ?>px; background:url(<?php echo $header_image; ?>) center center no-repeat;">
+	
+				<?php 
+				if(is_front_page() || is_page('6266')){
+					get_template_part( 'inc/custom', 'new-slideshow' );
+				}
+				?>
+	
+			</div>
+	
+		</div><!-- #featured-aside -->
+|3,0,8,1,24,0,1553149299,"	<div id=\"featured-aside\" class=\"site-featured featured-fullscreen\">","","		<?php","","		$header_image 			= get_header_image();","		$header_image_width 	= get_custom_header()->width;","		$header_image_height 	= get_custom_header()->height;","",>259
+|<"		if ( is_singular() && has_post_thumbnail( $post->ID ) && ( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), array( $header_image_width, $header_image_height ) ) ) && $image[1] >= $header_image_width ) :","				// Houston, we have a new header image!","			$header_image =  $image[0]; ","		endif;","		?>",>178
+|<"		<div class=\"site-header-image-bg\" style=\"width:100%; height:<?php echo $header_image_height; ?>px; background:url(<?php echo $header_image; ?>) center center no-repeat;\">","","			<?php ","			if(is_front_page() || is_page('6266')){","				get_template_part( 'inc/custom', 'new-slideshow' );","			}","			?>","","		</div>","","	</div><!-- #featured-aside -->"
 "9	LINE	0
+	<!--/ Start Image Slider Container /-->
+	<div id="slidercontainer"> 
+		<!--/ Start Image Slider /-->
+		<div id="sliderarea">
+			<ul id="custom-slideshows" class="bxslider">
+				<?php
 	
-|3,0,9,1,1,0,1552383377,""
+				$args = array(
+					'post_type'		 	=> 'slideshow',
+					'orderby' 			=> 'menu_order',
+					'order'				=> 'ASC',
+					'posts_per_page' 	=> -1
+				);
+				$the_query = new WP_Query( $args );
+	
+				if($the_query->post_count>0){
+	
+					while ( $the_query->have_posts() ) : $the_query->the_post();
+						$src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 3000,939 ), false, '' );
+						$banner = $src[0];?>
+						<li class="slide" style="background:url(<?=$banner?>) center top repeat-x;">
+							<div class="textslide warp slidefrontpage"><?php the_content(); ?></div>
+						</li>
+					<?php endwhile;
+	
+				}
+				wp_reset_postdata();
+				?>
+			</ul>
+		</div>
+		<!--/ END Image Slider /--> 
+	</div>
+	<!--/ END Image Slider Container /--> 
+	
+	<script type="text/javascript">
+	
+		( function( $ ) {
+	
+			$(document).ready(function(){
+				$('#custom-slideshows').bxSlider({
+					mode			: 'fade', 
+					infiniteLoop	: true, 
+					controls		: false, 
+					speed			: 500,
+					pager			: false,
+					auto			: true, 
+					pause			: 3000,
+					autoHover      : true ,
+					touchEnabled   : false
+				});
+|3,0,9,1,50,0,1553148207,"<!--/ Start Image Slider Container /-->","<div id=\"slidercontainer\"> ","	<!--/ Start Image Slider /-->","	<div id=\"sliderarea\">","		<ul id=\"custom-slideshows\" class=\"bxslider\">","			<?php","","			$args = array(","				'post_type'		 	=> 'slideshow',","				'orderby' 			=> 'menu_order',","				'order'				=> 'ASC',","				'posts_per_page' 	=> -1","			);","			$the_query = new WP_Query( $args );","","			if($the_query->post_count>0){",>2
+|<"","				while ( $the_query->have_posts() ) : $the_query->the_post();","					$src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 3000,939 ), false, '' );","					$banner = $src[0];?>","					<li class=\"slide\" style=\"background:url(<?=$banner?>) center top repeat-x;\">","						<div class=\"textslide warp slidefrontpage\"><?php the_content(); ?></div>","					</li>","				<?php endwhile;","","			}","			wp_reset_postdata();","			?>","		</ul>","	</div>",>31
+|<"	<!--/ END Image Slider /--> ","</div>","<!--/ END Image Slider Container /--> ","","<script type=\"text/javascript\">","","	( function( $ ) {","","		$(document).ready(function(){","			$('#custom-slideshows').bxSlider({","				mode			: 'fade', ","				infiniteLoop	: true, ","				controls		: false, ","				speed			: 500,","				pager			: false,","				auto			: true, ","				pause			: 3000,","				autoHover      : true ,","				touchEnabled   : false","			});"
 "-	CHAR	0
-	"
-|3,0,36,0,1,0,1552382967,"\""
+	 
+|3,0,36,0,1,0,1553218278," "
 
 # File marks:
 '0  1  1  ~/.vim/vimrc
-|4,48,1,1,1552382995,"~/.vim/vimrc"
-'1  1  1  ~/.vim/vimrc
-|4,49,1,1,1552382995,"~/.vim/vimrc"
-'2  1  1  ~/.vim/vimrc
-|4,50,1,1,1552382976,"~/.vim/vimrc"
-'3  1  1  ~/.vim/vimrc
-|4,51,1,1,1552382976,"~/.vim/vimrc"
-'4  1  1  ~/.vim/vimrc
-|4,52,1,1,1552381941,"~/.vim/vimrc"
-'5  1  1  ~/.vim/vimrc
-|4,53,1,1,1552381941,"~/.vim/vimrc"
-'6  1  1  ~/.vim/vimrc
-|4,54,1,1,1552381941,"~/.vim/vimrc"
-'7  1  1  ~/.vim/vimrc
-|4,55,1,1,1552381941,"~/.vim/vimrc"
-'8  34  2  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,56,34,2,1552381533,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
-'9  34  2  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,57,34,2,1552381533,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
+|4,48,1,1,1553225524,"~/.vim/vimrc"
+'1  1069  23  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,49,1069,23,1553218473,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+'2  137  52  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/header-new.php
+|4,50,137,52,1553156271,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/header-new.php"
+'3  499  0  ~/.vim/vimrc
+|4,51,499,0,1553145521,"~/.vim/vimrc"
+'4  1  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/page-templates/new-home.php
+|4,52,1,0,1553145521,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/page-templates/new-home.php"
+'5  1  0  ~/.vim/vimrc
+|4,53,1,0,1553145521,"~/.vim/vimrc"
+'6  1  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/page-templates/new-home.php
+|4,54,1,0,1553145521,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/page-templates/new-home.php"
+'7  51  4  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/front-page.php
+|4,55,51,4,1553137582,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/front-page.php"
+'8  51  4  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/front-page.php
+|4,56,51,4,1553137582,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/front-page.php"
+'9  1  2  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,57,1,2,1553136267,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
 
 # Jumplist (newest first):
 -'  1  1  ~/.vim/vimrc
-|4,39,1,1,1552383345,"~/.vim/vimrc"
--'  1  1  ~/.vim/vimrc
-|4,39,1,1,1552382995,"~/.vim/vimrc"
--'  1  1  ~/.vim/vimrc
-|4,39,1,1,1552382995,"~/.vim/vimrc"
--'  1  0  /c/wamp64/www/devs
-|4,39,1,0,1552382981,"/c/wamp64/www/devs"
--'  1  0  /c/wamp64/www/devs
-|4,39,1,0,1552382981,"/c/wamp64/www/devs"
--'  1  0  /c/wamp64/www/devs
-|4,39,1,0,1552382981,"/c/wamp64/www/devs"
--'  1  0  /c/wamp64/www/devs
-|4,39,1,0,1552382981,"/c/wamp64/www/devs"
--'  1  1  ~/.vim/vimrc
-|4,39,1,1,1552382976,"~/.vim/vimrc"
--'  1  1  ~/.vim/vimrc
-|4,39,1,1,1552382976,"~/.vim/vimrc"
--'  379  12  ~/.vim/vimrc
-|4,39,379,12,1552382975,"~/.vim/vimrc"
--'  397  12  ~/.vim/vimrc
-|4,39,397,12,1552382975,"~/.vim/vimrc"
--'  397  12  ~/.vim/vimrc
-|4,39,397,12,1552382975,"~/.vim/vimrc"
--'  397  12  ~/.vim/vimrc
-|4,39,397,12,1552382975,"~/.vim/vimrc"
--'  397  12  ~/.vim/vimrc
-|4,39,397,12,1552382975,"~/.vim/vimrc"
--'  22  14  ~/.vim/vimrc
-|4,39,22,14,1552382958,"~/.vim/vimrc"
--'  24  14  ~/.vim/vimrc
-|4,39,24,14,1552382958,"~/.vim/vimrc"
--'  24  14  ~/.vim/vimrc
-|4,39,24,14,1552382958,"~/.vim/vimrc"
--'  24  14  ~/.vim/vimrc
-|4,39,24,14,1552382958,"~/.vim/vimrc"
--'  24  14  ~/.vim/vimrc
-|4,39,24,14,1552382958,"~/.vim/vimrc"
--'  21  0  ~/.vim/vimrc
-|4,39,21,0,1552382922,"~/.vim/vimrc"
--'  23  0  ~/.vim/vimrc
-|4,39,23,0,1552382922,"~/.vim/vimrc"
--'  23  0  ~/.vim/vimrc
-|4,39,23,0,1552382922,"~/.vim/vimrc"
--'  23  0  ~/.vim/vimrc
-|4,39,23,0,1552382922,"~/.vim/vimrc"
--'  23  0  ~/.vim/vimrc
-|4,39,23,0,1552382922,"~/.vim/vimrc"
--'  378  0  ~/.vim/vimrc
-|4,39,378,0,1552382915,"~/.vim/vimrc"
--'  396  0  ~/.vim/vimrc
-|4,39,396,0,1552382915,"~/.vim/vimrc"
--'  396  0  ~/.vim/vimrc
-|4,39,396,0,1552382915,"~/.vim/vimrc"
--'  396  0  ~/.vim/vimrc
-|4,39,396,0,1552382915,"~/.vim/vimrc"
--'  396  0  ~/.vim/vimrc
-|4,39,396,0,1552382915,"~/.vim/vimrc"
--'  380  0  ~/.vim/vimrc
-|4,39,380,0,1552382912,"~/.vim/vimrc"
--'  398  0  ~/.vim/vimrc
-|4,39,398,0,1552382912,"~/.vim/vimrc"
--'  398  0  ~/.vim/vimrc
-|4,39,398,0,1552382912,"~/.vim/vimrc"
--'  398  0  ~/.vim/vimrc
-|4,39,398,0,1552382912,"~/.vim/vimrc"
--'  398  0  ~/.vim/vimrc
-|4,39,398,0,1552382912,"~/.vim/vimrc"
--'  310  17  ~/.vim/vimrc
-|4,39,310,17,1552382847,"~/.vim/vimrc"
--'  328  17  ~/.vim/vimrc
-|4,39,328,17,1552382847,"~/.vim/vimrc"
--'  328  17  ~/.vim/vimrc
-|4,39,328,17,1552382847,"~/.vim/vimrc"
--'  328  17  ~/.vim/vimrc
-|4,39,328,17,1552382847,"~/.vim/vimrc"
--'  328  17  ~/.vim/vimrc
-|4,39,328,17,1552382847,"~/.vim/vimrc"
--'  307  17  ~/.vim/vimrc
-|4,39,307,17,1552382845,"~/.vim/vimrc"
--'  325  17  ~/.vim/vimrc
-|4,39,325,17,1552382845,"~/.vim/vimrc"
--'  325  17  ~/.vim/vimrc
-|4,39,325,17,1552382845,"~/.vim/vimrc"
--'  325  17  ~/.vim/vimrc
-|4,39,325,17,1552382845,"~/.vim/vimrc"
--'  325  17  ~/.vim/vimrc
-|4,39,325,17,1552382845,"~/.vim/vimrc"
--'  188  70  ~/.vim/vimrc
-|4,39,188,70,1552382844,"~/.vim/vimrc"
--'  153  158  ~/.vim/vimrc
-|4,39,153,158,1552382844,"~/.vim/vimrc"
--'  206  70  ~/.vim/vimrc
-|4,39,206,70,1552382844,"~/.vim/vimrc"
--'  171  158  ~/.vim/vimrc
-|4,39,171,158,1552382844,"~/.vim/vimrc"
--'  206  70  ~/.vim/vimrc
-|4,39,206,70,1552382844,"~/.vim/vimrc"
--'  171  158  ~/.vim/vimrc
-|4,39,171,158,1552382844,"~/.vim/vimrc"
--'  206  70  ~/.vim/vimrc
-|4,39,206,70,1552382844,"~/.vim/vimrc"
--'  171  158  ~/.vim/vimrc
-|4,39,171,158,1552382844,"~/.vim/vimrc"
--'  206  70  ~/.vim/vimrc
-|4,39,206,70,1552382844,"~/.vim/vimrc"
--'  171  158  ~/.vim/vimrc
-|4,39,171,158,1552382844,"~/.vim/vimrc"
--'  126  16  ~/.vim/vimrc
-|4,39,126,16,1552382843,"~/.vim/vimrc"
--'  144  16  ~/.vim/vimrc
-|4,39,144,16,1552382843,"~/.vim/vimrc"
--'  144  16  ~/.vim/vimrc
-|4,39,144,16,1552382843,"~/.vim/vimrc"
--'  144  16  ~/.vim/vimrc
-|4,39,144,16,1552382843,"~/.vim/vimrc"
--'  144  16  ~/.vim/vimrc
-|4,39,144,16,1552382843,"~/.vim/vimrc"
--'  36  22  ~/.vim/vimrc
-|4,39,36,22,1552382842,"~/.vim/vimrc"
--'  24  21  ~/.vim/vimrc
-|4,39,24,21,1552382842,"~/.vim/vimrc"
--'  48  22  ~/.vim/vimrc
-|4,39,48,22,1552382842,"~/.vim/vimrc"
--'  26  21  ~/.vim/vimrc
-|4,39,26,21,1552382842,"~/.vim/vimrc"
--'  48  22  ~/.vim/vimrc
-|4,39,48,22,1552382842,"~/.vim/vimrc"
--'  26  21  ~/.vim/vimrc
-|4,39,26,21,1552382842,"~/.vim/vimrc"
--'  48  22  ~/.vim/vimrc
-|4,39,48,22,1552382842,"~/.vim/vimrc"
--'  26  21  ~/.vim/vimrc
-|4,39,26,21,1552382842,"~/.vim/vimrc"
--'  48  22  ~/.vim/vimrc
-|4,39,48,22,1552382842,"~/.vim/vimrc"
--'  26  21  ~/.vim/vimrc
-|4,39,26,21,1552382842,"~/.vim/vimrc"
--'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
--'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
--'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
--'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
--'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
--'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
--'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
--'  25  64  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
-|4,39,25,64,1552382773,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php"
--'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
-|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
--'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
-|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
--'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
-|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
--'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
-|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
--'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
-|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
--'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
-|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
--'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
-|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
--'  16  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child
-|4,39,16,0,1552381966,"/c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child"
--'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
-|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
--'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
-|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
--'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
-|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
--'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
-|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
--'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
-|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
--'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
-|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
--'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
-|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
--'  10  0  /c/wamp64/www/devs/hcscleaning/wp-content/themes
-|4,39,10,0,1552381964,"/c/wamp64/www/devs/hcscleaning/wp-content/themes"
--'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
-|4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
--'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
-|4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
--'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
-|4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
--'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
-|4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
--'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
-|4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
--'  12  0  /c/wamp64/www/devs/hcscleaning/wp-content
-|4,39,12,0,1552381962,"/c/wamp64/www/devs/hcscleaning/wp-content"
+|4,39,1,1,1553225524,"~/.vim/vimrc"
+-'  71  10  ~/.vim/vimrc
+|4,39,71,10,1553225505,"~/.vim/vimrc"
+-'  499  0  ~/.vim/vimrc
+|4,39,499,0,1553225441,"~/.vim/vimrc"
+-'  1069  23  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1069,23,1553218473,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1069  23  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1069,23,1553218473,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1069  23  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1069,23,1553218473,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1069  23  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1069,23,1553218473,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1069  23  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1069,23,1553218473,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1069  23  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1069,23,1553218473,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1069  23  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1069,23,1553218473,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1069  23  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1069,23,1553218473,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1072  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1072,1,1553218304,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1072  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1072,1,1553218304,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1072  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1072,1,1553218304,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1072  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1072,1,1553218304,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1072  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1072,1,1553218304,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1072  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1072,1,1553218304,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1072  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1072,1,1553218304,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1072  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1072,1,1553218304,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1041  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1041,1,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  640  13  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,640,13,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  638  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,638,0,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1041  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1041,1,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  640  13  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,640,13,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  638  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,638,0,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1041  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1041,1,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  640  13  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,640,13,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  638  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,638,0,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1041  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1041,1,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  640  13  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,640,13,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  638  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,638,0,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1041  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1041,1,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  640  13  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,640,13,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  638  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,638,0,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1041  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1041,1,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  640  13  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,640,13,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  638  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,638,0,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1041  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1041,1,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  640  13  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,640,13,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  638  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,638,0,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1041  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1041,1,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  640  13  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,640,13,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  638  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,638,0,1553218303,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1475  21  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1475,21,1553218302,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1475  21  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1475,21,1553218302,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1475  21  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1475,21,1553218302,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1475  21  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1475,21,1553218302,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1475  21  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1475,21,1553218302,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1475  21  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1475,21,1553218302,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1475  21  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1475,21,1553218302,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1475  21  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1475,21,1553218302,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1474  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1474,17,1553218301,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1474  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1474,17,1553218301,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1474  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1474,17,1553218301,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1474  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1474,17,1553218301,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1474  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1474,17,1553218301,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1474  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1474,17,1553218301,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1474  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1474,17,1553218301,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1474  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1474,17,1553218301,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1408  26  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1408,26,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1074  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1074,17,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1408  26  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1408,26,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1074  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1074,17,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1408  26  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1408,26,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1074  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1074,17,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1408  26  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1408,26,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1074  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1074,17,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1408  26  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1408,26,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1074  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1074,17,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1408  26  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1408,26,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1074  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1074,17,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1408  26  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1408,26,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1074  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1074,17,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1408  26  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1408,26,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1074  17  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1074,17,1553218296,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  767  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,767,0,1553218294,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  767  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,767,0,1553218294,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  767  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,767,0,1553218294,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  767  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,767,0,1553218294,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  767  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,767,0,1553218294,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  767  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,767,0,1553218294,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  767  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,767,0,1553218294,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  767  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,767,0,1553218294,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1080  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1080,0,1553218118,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1080  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1080,0,1553218118,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1080  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1080,0,1553218118,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1080  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1080,0,1553218118,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1080  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1080,0,1553218118,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1080  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1080,0,1553218118,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1080  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1080,0,1553218118,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1080  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1080,0,1553218118,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1547  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1547,1,1553218090,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1547  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1547,1,1553218090,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1547  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1547,1,1553218090,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1547  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1547,1,1553218090,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1547  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1547,1,1553218090,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1547  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1547,1,1553218090,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1547  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1547,1,1553218090,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  1547  1  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,1547,1,1553218090,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
+-'  632  0  /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+|4,39,632,0,1553217958,"/c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css"
 
 # History of marks within files (newest to oldest):
 
 > ~/.vim/vimrc
-	*	1552383387	0
-	"	493	0
-	^	379	13
-	.	21	0
-	+	300	0
-	+	300	11
-	+	319	31
-	+	332	27
-	+	299	0
-	+	300	29
-	+	332	0
-	+	300	0
-	+	300	28
-	+	319	30
-	+	300	0
-	+	300	1
-	+	300	0
-	+	300	38
-	+	300	29
-	+	319	32
-	+	319	30
-	+	300	29
-	+	300	32
-	+	300	0
-	+	300	31
-	+	328	0
-	+	332	0
-	+	319	0
-	+	333	4
-	+	333	0
-	+	334	0
-	+	319	0
-	+	328	0
-	+	331	0
-	+	332	0
-	+	345	0
-	+	346	14
-	+	300	0
-	+	328	0
-	+	300	0
-	+	346	14
-	+	347	0
-	+	346	14
-	+	347	0
-	+	328	0
-	+	347	0
-	+	300	0
-	+	319	0
-	+	301	0
-	+	302	0
-	+	322	0
-	+	320	0
-	+	72	0
-	+	73	0
-	+	74	0
-	+	322	0
-	+	327	28
-	+	328	0
-	+	302	0
-	+	304	27
-	+	328	0
-	+	326	31
-	+	328	0
-	+	325	0
-	+	319	0
-	+	331	0
-	+	331	30
-	+	331	0
-	+	325	30
-	+	304	25
-	+	21	0
-	+	22	0
-	+	379	0
-	+	381	0
-	+	24	33
-	+	25	0
-	+	382	12
-	+	379	1
-	+	382	0
-	+	21	0
-	+	22	0
-	+	378	0
-	+	379	0
-	+	22	0
-	+	379	13
-	+	382	0
-	+	379	12
-	+	26	0
-	+	27	0
-	+	28	0
-	+	30	0
-	+	31	0
-	+	32	0
-	+	33	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	37	0
+	*	1553225522	0
+	"	1	1
+	^	76	62
+	.	77	0
+	+	499	0
+	+	499	38
+	+	499	29
+	+	499	32
+	+	499	30
+	+	499	29
+	+	499	32
+	+	499	0
+	+	499	31
+	+	499	0
+	+	499	4
+	+	499	0
+	+	499	14
+	+	499	0
+	+	499	14
+	+	499	0
+	+	499	14
+	+	499	0
+	+	499	28
+	+	499	0
+	+	499	27
+	+	499	0
+	+	499	31
+	+	499	0
+	+	499	30
+	+	499	0
+	+	499	30
+	+	499	25
+	+	499	0
+	+	499	33
+	+	499	0
+	+	499	12
+	+	499	1
+	+	499	0
+	+	499	13
+	+	499	0
+	+	499	12
+	+	499	0
+	+	499	7
+	+	499	0
+	+	499	9
+	+	499	0
+	+	1	0
+	+	75	9
+	+	77	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/style.css
+	*	1553218473	0
+	"	1069	23
+	^	1075	35
+	.	1075	34
+	+	1	34
+	+	1	13
+	+	1	25
+	+	1	19
+	+	1	0
+	+	1	13
+	+	1	14
+	+	1	17
+	+	1	23
+	+	1	0
+	+	1	14
+	+	1	0
+	+	1	34
+	+	1	0
+	+	1	14
+	+	1	0
+	+	1	14
+	+	1	17
+	+	1	21
+	+	1	34
+	+	1	25
+	+	1	0
+	+	1	44
+	+	1	14
+	+	1	0
+	+	1	11
+	+	1	0
+	+	1	11
+	+	1	0
+	+	1	3
+	+	1	0
+	+	1	13
+	+	1	21
+	+	1	11
+	+	1	21
+	+	1	12
+	+	1	21
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	51
+	+	1	0
+	+	1	11
+	+	1	0
+	+	1	51
+	+	1	0
+	+	1	11
+	+	1	15
+	+	1	19
+	+	1	23
+	+	1	25
+	+	1	0
+	+	1	13
+	+	1	0
+	+	1	15
+	+	1	0
+	+	1	24
+	+	1	14
+	+	1	0
+	+	1578	0
+	+	1	0
+	+	1	2
+	+	1	53
+	+	1	43
+	+	1	0
+	+	1	1
+	+	1578	0
+	+	1	0
+	+	1578	0
+	+	1578	2
+	+	1	3
+	+	787	0
+	+	648	86
+	+	650	0
+	+	650	86
+	+	648	2
+	+	648	91
+	+	650	68
+	+	650	54
+	+	650	40
+	+	650	24
+	+	651	0
+	+	653	21
+	+	654	22
+	+	639	0
+	+	640	25
+	+	641	20
+	+	1080	0
+	+	1074	0
+	+	1076	1
+	+	1075	20
+	+	1074	0
+	+	641	20
+	+	642	22
+	+	1075	34
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/single.php
+	*	1553217952	0
+	"	1	0
+
+> /c/wamp64/www/devs
+	*	1553217923	0
+	"	1	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/header-new.php
+	*	1553156270	0
+	"	137	52
+	.	137	0
+	+	95	4
+	+	122	0
+	+	96	0
+	+	98	0
+	+	115	0
+	+	111	70
+	+	103	0
+	+	136	68
+	+	138	12
+	+	136	19
+	+	138	55
+	+	141	74
+	+	142	0
+	+	137	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/inc/custom-new-slideshow.php
+	*	1553156270	0
+	"	40	7
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/inc/custom-slideshow.php
+	*	1553156269	0
+	"	45	19
+	^	1	2
+	.	1	0
+	+	1	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/custom-home.css
+	*	1553150142	0
+	"	129	19
+	^	48	40
+	.	121	0
+	+	48	39
+	+	121	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/inc/wp_bootstrap_navwalker.php
+	*	1553149968	0
+	"	1	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/functions.php
+	*	1553148391	0
+	"	86	3
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/inc/custom-new-cta.php
+	*	1553148186	0
+	"	31	14
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/page-templates/new-home.php
+	*	1553148063	0
+	"	15	20
+	^	1	11
+	.	1	0
+	+	1	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/inc/custom-cta.php
+	*	1553147968	0
+	"	138	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/inc/custom-inner-slide-archive.php
+	*	1553147666	0
+	"	13	27
+	^	13	36
+	.	13	0
+	+	6	0
+	+	13	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/archive.php
+	*	1553146933	0
+	"	47	8
+	^	11	15
+	.	11	14
+	+	11	14
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/page-templates/Blogs Archive.php
+	*	1553146140	0
+	"	14	0
+	^	14	15
+	.	14	14
+	+	14	14
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/page-templates/listpage.php
+	*	1553146140	0
+	"	14	0
+	^	14	15
+	.	14	14
+	+	14	14
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/template-wineries.php
+	*	1553145874	0
+	"	6	14
+	^	6	15
+	.	6	14
+	+	6	14
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/new-home.php
+	*	1553145517	0
+	"	33	44
+	.	1	0
+	+	1	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/page-templates/tour.php
+	*	1553140627	0
+	"	61	11
+	^	67	21
+	.	67	20
+	+	14	14
+	+	67	20
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/page.php
+	*	1553140491	0
+	"	34	0
+	^	14	15
+	.	14	14
+	+	14	14
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/footer-new.php
+	*	1553140468	0
+	"	55	2
+	.	15	0
+	+	15	0
+	+	15	5
+	+	15	0
+	+	15	26
+	+	15	0
+	+	15	25
+	+	15	76
+	+	15	4
+	+	15	25
+	+	15	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/front-page.php
+	*	1553140067	0
+	"	19	1
+	^	14	15
+	.	14	14
+	+	19	0
+	+	84	20
+	+	14	0
+	+	18	0
+	+	84	20
+	+	14	14
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/header.php
+	*	1553138695	0
+	"	102	0
+	.	102	0
+	+	127	0
+	+	37	91
 	+	38	0
-	+	39	0
-	+	40	0
-	+	41	0
-	+	42	0
+	+	38	98
+	+	127	2
+	+	127	4
+	+	127	58
+	+	127	22
+	+	127	63
+	+	127	183
+	+	127	128
+	+	127	24
+	+	127	10
+	+	127	46
+	+	127	0
+	+	127	34
+	+	127	11
+	+	127	3
+	+	127	28
+	+	127	0
+	+	127	34
+	+	127	0
+	+	127	22
+	+	127	0
+	+	127	11
+	+	127	18
+	+	127	15
+	+	127	5
+	+	127	0
+	+	127	22
+	+	127	0
+	+	127	18
+	+	127	23
+	+	127	34
+	+	127	0
+	+	55	4
+	+	55	30
+	+	55	0
+	+	54	31
+	+	55	37
+	+	55	18
+	+	54	31
+	+	55	35
+	+	55	80
+	+	55	157
+	+	55	24
+	+	55	33
+	+	102	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/js/pwd-custom.js
+	*	1553138257	0
+	"	1	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/js/customizer.js
+	*	1553138171	0
+	"	1	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/js/html5.js
+	*	1553138169	0
+	"	1	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/js/responsive-nav.js
+	*	1553138140	0
+	"	1	3
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/js/responsive-nav.min.js
+	*	1553138017	0
+	"	1	0
+
+> /c/wamp64/www/devs/dvinetours/wp-content/themes/dwt/footer.php
+	*	1553136016	0
+	"	33	0
+
+> ~/Desktop/New folder (3)/backup_2019-03-18-1831_d039Vine_Wine_Tours_b5e6b2d41795-db/dvinetours.sql
+	*	1553047611	0
+	"	83155	36
+
+> ~/Desktop/New folder (3)/backup_2019-03-18-1831_d039Vine_Wine_Tours_b5e6b2d41795-db/dvinetours
+	*	1553046073	0
+	"	76	15
+	.	4	0
+	+	4	0
+
+> /c/windows/system32/drivers/etc/hosts
+	*	1553045717	0
+	"	43	29
+	^	43	30
+	.	43	29
+	+	41	31
+	+	42	26
+	+	43	29
+
+> /c/wamp64/bin/apache/apache2.4.27/conf/extra/httpd-vhosts.conf
+	*	1553045714	0
+	"	22	26
+	^	22	27
+	.	22	26
+	+	26	0
+	+	29	14
+	+	27	21
+	+	28	44
 	+	21	0
+	+	24	14
+	+	23	49
+	+	22	26
+
+> /c/wamp64/www/devs/dvinetours/wp-config-sample.php
+	*	1553045654	0
+	"	29	23
+	^	26	23
+	.	29	23
+	+	23	28
+	+	26	22
+	+	29	23
+
+> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/footer.php
+	*	1552895629	0
+	"	57	69
+	^	57	70
+	.	57	69
+	+	51	21
+	+	57	36
+	+	50	36
+	+	57	69
+
+> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/js/main.js
+	*	1552895628	0
+	"	830	17
+	^	830	18
+	.	830	17
+	+	917	35
+	+	923	35
+	+	923	0
+	+	917	0
+	+	917	11
+	+	917	0
+	+	917	8
+	+	908	26
+	+	908	8
+	+	908	0
+	+	917	49
+	+	917	0
+	+	923	0
+	+	917	0
+	+	923	28
+	+	923	0
+	+	917	0
+	+	918	31
+	+	918	11
+	+	918	0
+	+	918	15
+	+	923	14
+	+	923	8
+	+	923	25
+	+	923	48
+	+	923	0
+	+	918	16
+	+	918	0
+	+	910	31
+	+	911	8
+	+	911	0
+	+	910	15
+	+	912	0
+	+	913	0
+	+	912	12
+	+	910	44
+	+	911	24
+	+	913	20
+	+	915	12
+	+	915	36
+	+	908	0
+	+	900	0
+	+	911	0
+	+	923	0
+	+	844	0
+	+	866	0
+	+	866	25
+	+	923	0
+	+	844	0
+	+	866	30
+	+	919	0
+	+	845	0
+	+	824	31
+	+	845	30
+	+	830	17
+	+	992	0
+	+	990	0
+	+	992	0
+	+	959	0
+	+	960	11
+	+	938	0
+	+	974	0
+	+	974	37
+	+	974	12
+	+	974	15
+	+	974	43
+	+	974	0
+	+	974	47
+	+	974	18
+	+	974	25
+	+	974	0
+	+	974	25
+	+	974	29
+	+	974	47
+	+	974	0
+	+	974	65
+	+	974	0
+	+	974	40
+	+	974	61
+	+	974	34
+	+	974	52
+	+	974	30
+	+	974	41
+	+	974	51
+	+	974	42
+	+	974	59
+	+	974	56
+	+	989	0
+	+	976	25
+	+	983	46
+	+	985	46
+	+	974	46
+	+	983	0
+	+	830	16
+	+	961	1
+	+	962	0
+	+	830	17
+	i	968	43
+
+> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/css/custom.css
+	*	1552895628	0
+	"	298	102
+	^	288	98
+	.	288	97
+	+	1	0
+	+	77	0
+	+	69	58
+	+	71	0
+	+	70	2
+	+	70	105
+	+	71	19
+	+	72	15
+	+	73	21
+	+	74	27
+	+	76	0
+	+	75	16
+	+	401	0
+	+	400	3
+	+	401	0
+	+	400	4
+	+	400	40
+	+	400	4
+	+	400	3
+	+	285	2
+	+	286	0
+	+	287	6
+	+	288	0
+	+	288	102
+	+	210	64
+	+	211	0
+	+	210	0
+	+	125	0
+	+	207	57
+	+	207	22
+	+	208	16
+	+	207	0
+	+	204	2
+	+	205	0
+	+	248	60
+	+	288	97
+
+> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/css/style.css
+	*	1552895627	0
+	"	686	0
+	^	697	2
+	.	698	0
+	+	4263	27
+	+	4264	19
+	+	721	1
+	+	696	0
+	+	697	1
+	+	697	0
+	+	721	0
+	+	697	0
+	+	697	1
+	+	697	2
+	+	697	0
+	+	3	41
+	+	697	23
+	+	697	0
+	+	697	2
+	+	698	0
+
+> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/page-home.php
+	*	1552895627	0
+	"	37	25
+	.	31	0
+	+	116	9
+	+	116	8
+	+	116	105
+	+	107	59
+	+	108	17
+	+	22	19
+	+	42	10
+	+	43	18
+	+	43	0
+	+	42	0
+	+	48	0
+	+	52	4
+	+	52	0
+	+	53	16
+	+	22	16
+	+	15	20
+	+	48	36
+	+	15	16
+	+	52	0
+	+	56	0
+	+	49	46
+	+	50	62
+	+	51	30
+	+	52	10
+	+	48	0
+	+	49	25
+	+	50	24
+	+	52	29
+	+	51	9
+	+	52	0
+	+	50	75
+	+	51	0
+	+	51	10
+	+	51	68
+	+	53	60
+	+	51	0
+	+	52	0
+	+	56	0
+	+	55	23
+	+	56	0
+	+	55	28
+	+	53	16
+	+	55	0
+	+	23	21
+	+	37	0
+	+	37	27
+	+	37	33
+	+	37	0
+	+	37	41
+	+	37	44
+	+	41	0
+	+	28	0
+	+	37	0
+	+	27	27
+	+	37	0
+	+	29	38
+	+	36	23
+	+	29	38
+	+	36	0
+	+	29	39
+	+	36	0
+	+	30	33
+	+	35	27
+	+	31	0
+
+> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/style.css
+	*	1552895625	0
+	"	916	34
+	^	919	28
+	.	919	27
+	+	725	0
+	+	737	0
+	+	740	3
+	+	740	0
+	+	824	0
+	+	846	0
+	+	849	5
+	+	847	0
+	+	849	1
+	+	924	0
+	+	754	0
+	+	756	0
+	+	754	0
+	+	921	0
+	+	899	0
+	+	865	0
+	+	853	0
+	+	850	0
+	+	846	0
+	+	845	0
+	+	838	0
+	+	824	0
+	+	820	0
+	+	816	0
+	+	717	2
+	+	718	3
+	+	718	70
+	+	717	29
+	+	928	0
+	+	924	0
+	+	906	15
+	+	888	43
+	+	898	26
+	+	900	0
+	+	900	10
+	+	900	0
+	+	898	0
+	+	906	0
+	+	868	0
+	+	888	0
+	+	865	0
+	+	921	26
+	+	921	0
+	+	889	0
+	+	900	0
+	+	921	0
+	+	865	20
+	+	867	0
+	+	888	0
+	+	897	0
+	+	905	20
+	+	875	36
+	+	904	25
+	+	900	0
+	+	907	47
+	+	908	4
+	+	908	0
+	+	907	42
+	+	918	21
+	+	919	28
+	+	865	0
+	+	878	0
+	+	887	0
+	+	855	0
+	+	924	0
+	+	927	0
+	+	828	5
+	+	829	0
+	+	827	27
+	+	829	17
+	+	831	18
+	+	829	0
+	+	834	0
+	+	839	0
+	+	839	29
+	+	834	29
+	+	835	28
+	+	836	17
+	+	834	26
+	+	833	0
+	+	830	0
+	+	839	0
+	+	838	29
+	+	919	27
+
+> /c/wamp64/www/devs/hcscleaning/wp-cron.php
+	*	1552891009	0
+	"	1	0
+
+> /c/wamp64/www/devs/hcscleaning
+	*	1552890989	0
+	"	25	0
+	.	33	0
+	+	1	0
+	+	33	0
+
+> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/style.css
+	*	1552640504	0
+	"	3506	4
+	.	3506	0
+	+	3511	0
+	+	3510	6
+	+	3510	31
+	+	3511	25
+	+	3541	0
+	+	3528	6
+	+	3528	0
+	+	3541	0
+	+	3528	0
+	+	3541	27
+	+	3541	18
+	+	3541	48
+	+	3541	0
+	+	3513	0
+	+	3541	0
+	+	3513	0
+	+	3513	10
+	+	3505	14
+	+	3505	0
+	+	3500	0
+	+	3498	1
+	+	3500	22
+	+	3507	1
+	+	3513	0
+	+	3501	0
+	+	3511	0
+	+	3503	0
+	+	3513	0
+	+	3506	0
+	+	3505	22
+	+	3516	31
+	+	3517	0
+	+	3521	23
+	+	3522	15
+	+	3506	33
+	+	3505	6
+	+	3541	0
+	+	3535	2
+	+	3536	0
+	+	3535	3
+	+	3534	0
+	+	3539	10
+	+	3540	0
+	+	3540	18
+	+	3540	0
+	+	3506	0
+
+> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/js/pwd-custom.js
+	*	1552640503	0
+	"	160	44
+	.	151	0
+	+	151	0
+	+	151	25
+	+	151	26
+	+	151	5
+	+	151	1
+	+	151	7
+	+	151	8
+	+	151	3
+	+	151	0
+	+	120	0
+	+	151	3
+	+	151	21
+	+	151	0
+	+	151	9
+	+	151	25
+	+	151	44
+	+	151	23
+	+	151	0
+	+	151	23
+	+	151	64
+	+	151	0
+	+	151	65
+	+	151	0
+	+	151	3
+	+	148	18
+	+	148	21
+	+	148	0
+	+	151	0
+	+	151	31
+	+	151	13
+	+	148	0
+	+	148	3
+	+	151	0
+	+	148	0
+	+	151	0
+	+	148	4
+	+	148	0
+	+	148	21
+	+	148	0
+	+	151	3
+	+	151	0
+	+	148	0
+	+	150	0
+	+	150	15
+	+	151	50
+	+	150	32
+	+	151	13
+	+	145	0
+	+	151	0
+	+	156	0
+	+	157	0
+	+	151	59
+	+	151	0
+	+	150	0
+	+	151	4
+	+	147	0
+	+	151	14
+	+	151	0
+
+> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/taxonomy-school_courses.php
+	*	1552635409	0
+	"	111	0
+
+> /c/wamp64/www/devs/broods/.htaccess
+	*	1552628865	0
+	"	12	0
+	^	12	14
+	.	12	0
+	+	12	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/inc/custom-slideshow.php
+	*	1552628217	0
+	"	15	15
+	^	11	23
+	.	11	22
+	+	11	22
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/js/pwd-custom.js
+	*	1552628043	0
+	"	41	4
+	^	41	4
+	.	41	0
+	+	1	0
+	+	41	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/functions.php
+	*	1552621650	0
+	"	402	50
+	.	402	0
+	+	65	0
+	+	66	0
+	+	65	0
+	+	402	0
+	+	402	33
+	+	402	31
+	+	402	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/style.css
+	*	1552557348	0
+	"	1723	22
+	.	1728	0
+	+	1728	29
+	+	1728	0
+	+	1730	1
+	+	1730	46
+	+	1730	0
+	+	1728	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/front-page.php
+	*	1552553934	0
+	"	43	5
+	^	41	5
+	.	41	0
+	+	46	0
+	+	33	0
+	+	31	21
+	+	32	0
+	+	46	4
+	+	46	0
+	+	44	0
+	+	41	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/admin/custom-meta-boxes.php
+	*	1552549910	0
+	"	72	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/style-responsive.css
+	*	1552549864	0
+	"	29	1
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/admin/post-type-testimonial.php
+	*	1552549765	0
+	"	59	2
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/admin/post-type-slideshow.php
+	*	1552549659	0
+	"	23	27
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/inc/custom-cta.php
+	*	1552549450	0
+	"	56	31
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/page.php
+	*	1552536522	0
+	"	35	0
+	^	35	1
+	.	35	0
+	+	26	0
+	+	31	0
+	+	35	0
+
+> /c/wamp64/www/devs/		</div>
+	*	1552536515	0
+	"	1	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/index.php
+	*	1552536513	0
+	"	42	0
+	.	34	0
+	+	1	0
+	+	34	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/header.php
+	*	1552536221	0
+	"	147	23
+
+> /c/wamp64/www/devs/broods/wp-content/plugins/pwd-footer/pwd-footer.php
+	*	1552535891	0
+	"	215	8
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/admin/custom-theme-options.php
+	*	1552535888	0
+	"	486	1
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/footer.php.bak
+	*	1552535886	0
+	"	45	1
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/admin/post-type-cta.php
+	*	1552535883	0
+	"	28	10
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/lib/options/options.php
+	*	1552533588	0
+	"	85	43
+
+> /c/wamp64/www/devs/broods/wp-content/plugins/pwd-footer/pwd-footer.css
+	*	1552533454	0
+	"	1	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/custom-cta.php
+	*	1552532060	0
+	"	3	1
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/archive-service.php
+	*	1552530101	0
+	"	1	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/page-templates/services.php
+	*	1552529062	0
+	"	9	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/archive.php
+	*	1552528766	0
+	"	76	48
+
+> /c/wamp64/www/devs/broods/wp-config-sample.php
+	*	1552528623	0
+	"	37	63
+	^	29	23
+	.	29	23
+	+	23	19
+	+	23	24
+	+	26	22
+	+	30	0
+	+	29	23
+
+> ~/desktop/dfasdfadf.db
+	*	1552527814	0
+	"	2	0
+	.	2	0
+	+	2	0
+
+> ~/Desktop/db.sql
+	*	1552527790	0
+	"	4	0
+	^	1311	0
+	.	4	0
+	+	4	0
+	+	1311	0
+	+	4	0
+
+> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/functions.php
+	*	1552472918	0
+	"	2494	0
+	.	2494	0
+	+	2483	6
+	+	2484	0
+	+	2483	19
+	+	2485	0
+	+	2483	20
+	+	2486	45
+	+	2487	52
+	+	2488	35
+	+	2490	0
+	+	2487	54
+	+	2494	0
+
+> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/header.php
+	*	1552457425	0
+	"	26	44
+	^	39	91
+	.	39	90
+	+	40	0
+	+	39	90
+
+> /c/wamp64/www/devs/ControlP
+	*	1552443352	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/js/compressed.js
+	*	1552440412	0
+	"	29	0
+
+> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/aboutus.php
+	*	1552440121	0
+	"	76	4
+
+> /c/wamp64/www/devs/index.py
+	*	1552439949	0
+	"	281	16
+
+> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/single-school_major_courses.php
+	*	1552384983	0
+	"	39	46
+	.	39	0
+	+	49	0
+	+	47	0
+	+	49	0
+	+	17	0
+	+	15	0
+	+	49	0
+	+	48	66
+	+	39	0
+
+> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/admin/post-type-testimonial.php
+	*	1552384963	0
+	"	112	2
+
+> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/content-courses_landing_single.php
+	*	1552384700	0
+	"	120	3
+
+> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/content-courses_landing_page.php
+	*	1552384647	0
+	"	1	0
+
+> /c/wamp64/www/devs/hcscleaning/index.php
+	*	1552383531	0
+	"	1	0
 
 > /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/template-parts/online-booking.php
 	*	1552382772	0
@@ -527,14 +1781,6 @@ $
 	.	8	15
 	+	1	12
 	+	8	15
-
-> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/content-courses_landing_single.php
-	*	1552381390	0
-	"	35	0
-
-> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/content-courses_landing_page.php
-	*	1552381344	0
-	"	1	0
 
 > /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/page-courses_intro.php
 	*	1552381219	0
@@ -585,109 +1831,12 @@ $
 	+	41	0
 	+	42	0
 
-> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/taxonomy-school_courses.php
-	*	1552380632	0
-	"	2	0
-
-> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/single-school_major_courses.php
-	*	1552380625	0
-	"	45	0
-	^	49	1
-	.	48	66
-	+	49	0
-	+	47	0
-	+	49	0
-	+	17	0
-	+	15	0
-	+	49	0
-	+	48	66
-
-> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/style.css
-	*	1552380114	0
-	"	3505	22
-	^	3505	23
-	.	3505	22
-	+	3511	0
-	+	3510	6
-	+	3510	31
-	+	3511	25
-	+	3536	0
-	+	3526	6
-	+	3526	0
-	+	3536	0
-	+	3526	0
-	+	3536	27
-	+	3536	18
-	+	3536	48
-	+	3536	0
-	+	3513	0
-	+	3535	0
-	+	3513	0
-	+	3513	10
-	+	3505	14
-	+	3505	0
-	+	3500	0
-	+	3498	1
-	+	3500	22
-	+	3507	1
-	+	3513	0
-	+	3501	0
-	+	3511	0
-	+	3503	0
-	+	3513	0
-	+	3506	0
-	+	3505	22
-
-> /c/wamp64/www/devs/morleyschool/wp-content/themes/morleyshs/js/pwd-custom.js
-	*	1552379426	0
-	"	165	3
-	^	153	66
-	.	165	3
-	+	151	0
-	+	157	0
-	+	155	25
-	+	156	26
-	+	157	5
-	+	158	1
-	+	157	7
-	+	158	7
-	+	155	7
-	+	156	8
-	+	155	3
-	+	161	0
-	+	154	0
-	+	164	0
-	+	120	0
-	+	167	3
-	+	163	21
-	+	163	0
-	+	163	9
-	+	163	25
-	+	163	44
-	+	163	23
-	+	163	0
-	+	153	0
-	+	154	23
-	+	153	64
-	+	154	0
-	+	153	65
-	+	154	0
-	+	165	3
-
 > /usr/share/vim/vim81/doc/help.txt
 	*	1552377981	0
 	"	1	0
 
-> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/js/main.js
-	*	1552377902	0
-	"	887	0
-
 > /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/404.php
 	*	1552377901	0
-	"	1	0
-
-> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/js/compressed.js
-	*	1552377889	0
 	"	1	0
 
 > /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/js/masonry-docs.min.js
@@ -716,72 +1865,6 @@ $
 	*	1552368009	0
 	"	154	3
 
-> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/style.css
-	*	1552366710	0
-	"	627	18
-	^	627	19
-	.	627	18
-	+	523	12
-	+	522	17
-	+	708	58
-	+	709	52
-	+	709	15
-	+	709	3
-	+	709	0
-	+	716	0
-	+	768	19
-	+	766	14
-	+	627	24
-	+	627	0
-	+	695	0
-	+	627	20
-	+	629	23
-	+	616	0
-	+	759	0
-	+	756	17
-	+	757	0
-	+	627	18
-
-> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/css/style.css
-	*	1552366709	0
-	"	713	0
-	^	713	0
-	.	712	1
-	+	4262	27
-	+	4263	19
-	+	720	1
-	+	696	0
-	+	706	1
-	+	708	0
-	+	720	0
-	+	708	0
-	+	712	1
-
-> /c/wamp64/www/devs/hcscleaning/wp-content/themes/hcs-child/css/custom.css
-	*	1552366709	0
-	"	403	33
-	^	390	3
-	.	390	3
-	+	1	0
-	+	77	0
-	+	69	58
-	+	71	0
-	+	70	2
-	+	70	105
-	+	71	19
-	+	72	15
-	+	73	21
-	+	74	27
-	+	76	0
-	+	75	16
-	+	391	0
-	+	390	3
-	+	391	0
-	+	390	4
-	+	390	40
-	+	390	4
-	+	390	3
-
 > /c/wamp64/www/devs/morleyschool/wp-config.php
 	*	1552356090	0
 	"	23	32
@@ -791,3 +1874,9 @@ $
 > /usr/share/vim/vim81/doc/pi_netrw.txt
 	*	1552356012	0
 	"	1045	16
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/admin/post-type-service.php
+	"	1	0
+
+> /c/wamp64/www/devs/broods/wp-content/themes/broods/admin/post-type-faq.php
+	"	1	0

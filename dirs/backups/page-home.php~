@@ -1,0 +1,213 @@
+<?php
+/**
+ * Template Name: Home Page
+ * Template Post Type: page
+ *
+ * @package WordPress
+ * @subpackage Twenty_Sixteen
+ * @since Twenty Sixteen 1.0
+ */
+
+
+
+get_header(); ?>
+
+<section class="homebanner slider desk">
+    <?php if( have_rows('home_slider') ): ?>
+ 	 <?php while( have_rows('home_slider') ): the_row(); 
+       $title = get_sub_field('banner_title');
+       $image = wp_get_attachment_image_src(get_sub_field('banner_image')['id'], 'full');
+       $link = get_sub_field('read_more_link');
+    ?>
+    <!-- <div class="" style="background: url('<?php // echo $image['url']; ?>');"> -->
+    <div class="mother">
+        <div class="bannerbg">
+            <img class="theImage" src="<?php echo $image[0]; ?>" width="<?php echo $image[1]; ?>" height="<?php echo $image[2]; ?>" />
+            <div class="container">
+    	        <div class="row">
+                    <div class="col-lg-6 left">
+                        <div class="main">
+                            <span class="title">
+                                <?php echo $title; ?>
+                            </span>
+                            <a class="readmore" href="<?php echo $link; ?>">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 right">
+                            
+                    </div>
+		        </div>
+	        </div>
+        </div>
+    </div>
+        <?php endwhile; ?>
+    <?php endif; ?>
+</section>
+
+
+<section class="homebanner slider mob">
+    <?php if( have_rows('responsive_banner_images', 'option') ): ?>
+<?php while( have_rows('responsive_banner_images', 'option') ): the_row(); 
+$image = wp_get_attachment_image_src(get_sub_field('img'), 'full');
+    ?>
+    <div class="">
+        <div class="bannerbg">
+            <img src="<?=$image[0];?>" width="<?=$image[1];?>" height="<?=$image[2];?>">
+        </div>
+    </div>
+        <?php  endwhile; ?>
+    <?php endif; ?>
+</section>
+
+<section class="ServiceSection">
+<!--
+    <div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center"> <h2 class="mainTitle"><?php the_field('our_service_title'); ?></h2> </div>
+		</div>
+    </div>		
+-->
+
+    
+    <div class="servicelistBg">
+		<div class="container">
+			<div class="row">
+                <div class="col-sm-12 servicelistflex">
+
+					<?php if( have_rows('our_service_row') ): ?>
+					
+					<?php while( have_rows('our_service_row') ): the_row(); 
+					    $icon = get_sub_field('service_font_icon');
+					    $title = get_sub_field('service_title');
+					    $link = get_sub_field('service_page_link');
+
+				    ?>
+				    
+                    <div class="conbox">
+                        <div class="serviceBox">
+                            <a href="<?php echo $link['url']; ?>">
+                            <div class="s_icon"><?php echo $icon; ?></div>
+                            <h3 class="s_title"><?php echo $title; ?></h3>
+                            </a>
+                        </div>
+                    </div>
+				    <?php endwhile; ?>
+					<?php endif; ?>	
+				    
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+</section>
+<section class="homeIntro">
+	<div class="container">
+        <!-- <div class="row d-flex align-item-center"> -->
+		<div class="row align-item-center">
+			<?php $image = get_field('home_intro_image');  ?>
+			<div class="col-md-6 col-sm-12"> 
+			<div class="introContent"><h2 class="mainTitle"><?php the_field('home_intro_title'); ?></h2>
+				<?php the_field('home_intro_description'); ?> 
+			</div></div>
+			<div class="col-md-6 col-sm-12 introImg"> 
+				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>"/>
+				<!-- <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>"  class="freeimg" /> -->
+			</div>
+		</div>
+	</div>
+</section>			
+
+<section class="gallery-section">
+	<div class="container-fluid">
+		<div class="row columns_padding_0">
+			<div class="col-sm-12"><h2 class="mainTitle text-center"><?php the_field('our_gallery_title'); ?></h2></div>
+			<div class="col-sm-12">
+				<?php if( have_rows('our_gallery_row') ): ?>
+				<div class="owl-carousel" data-margin="0" data-nav="true" data-items="7"
+					data-responsive-xlg="7"
+					data-responsive-lg="6"
+					data-responsive-md="4"
+					data-responsive-sm="3"
+					data-responsive-xs="1"
+				>
+				<?php while( have_rows('our_gallery_row') ): the_row(); 
+				    $image = get_sub_field('our_gallery_image');
+				    $title = get_sub_field('our_gallery_image_title');
+
+			    ?>
+			    	<div class="vertical-item">
+			    		<div class="item-media">
+			    			
+			    			<img src="<?php echo $image['sizes']['medium']; ?>" alt="<?php echo $image['alt'] ?>" />
+						    <div class="media-links">
+						    	<div class="links-wrap">
+						    		<h5><?php echo $title ?></h5>
+						    		<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="<?php echo $image['url']; ?>"></a>
+						    	</div>
+						    	<a class="abs-link" href="#"></a>
+						    </div>
+			    		</div>
+			    	</div>
+			    <?php endwhile; ?>
+				<?php endif; ?>	
+			    </div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="WhyourSection">
+	<div class="container">
+		<div class="row">
+	      <div class="com-md-12">
+			<h2 class="subTitle text-center"><span><?php the_field('why_our_client_title'); ?></span></h2>
+		  </div>
+		  <div class="col-md-10 col-md-offset-1 col-sm-12">
+			  <?php if( have_rows('why_choose_row') ): ?>
+                <div class="row d-flex align-item-center whychooselist">
+                <?php while( have_rows('why_choose_row') ): the_row(); 
+                    $image = get_sub_field('why_choose_icon');
+                    $title = get_sub_field('why_choose_title');
+                    $description = get_sub_field('why_choose_description');
+                ?>
+                    <div class="col-md-4 col-xs-12 text-center whyclientBox">
+                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="icon" />
+                    	<h3><?php echo $title ?></h3>
+                    	<?php echo $description ?>
+                    </div>
+                <?php endwhile; ?>
+                <?php endif; ?> 
+                </div>
+            </div>
+		</div>
+	</div>
+</section>	
+<section class="simplefullscreen">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<?php $image = get_field('full_screen_bg_image');  ?>
+				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="fullimg"/>
+				<h3 class="tagTitle"><?php the_field('full_screen_title'); ?></h3>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="simpleimgList">
+	<div class="container">
+			  <?php if( have_rows('hcs_images_list') ): ?>
+                <ul class="gridlist">
+                <?php while( have_rows('hcs_images_list') ): the_row(); 
+                    $image = get_sub_field('hcs_simple_images');
+                ?>
+                    <li>
+                        <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt'] ?>" />
+                    </li>
+                <?php endwhile; ?>
+                <?php endif; ?> 
+                </ul>
+	</div>
+</section>
+
+<?php get_footer(); ?>

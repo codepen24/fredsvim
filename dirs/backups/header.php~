@@ -1,0 +1,169 @@
+<?php
+/**
+* The Header for our theme.
+*
+* Displays all of the <head> section and everything up till <div id="main">
+*
+* @package PWD Default Theme
+* @since PWD Default Theme 1.0
+*/
+?>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]> <html <?php language_attributes(); ?> class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7 ]> <html <?php language_attributes(); ?> class="no-js ie6 oldie"> <![endif]-->
+<!--[if IE 7 ]>    <html <?php language_attributes(); ?> class="no-js ie7 oldie"> <![endif]-->
+<!--[if IE 8 ]>    <html <?php language_attributes(); ?> class="no-js ie8 oldie"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html <?php language_attributes(); ?> class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<meta name="viewport" content="1500" />-->
+
+	<title>
+		<?php wp_title( '|', true, 'right' ); ?>
+	</title>
+
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+		<!--[if lt IE 9]>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<link href="//fonts.googleapis.com/css?family=Pompiere" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Kristi" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+	<link rel="author" href="https://plus.google.com/u/0/103756313881152706723/posts"/>
+
+	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Kristi|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+	<?php wp_head(); ?>
+
+</head>
+<body <?php body_class(); ?>>
+
+	<div class="mobiletop">
+		<div class="wellcome_top"><a class="mail" href="mailto:info@dvinetours.com.au">info@dvinetours.com.au</a> <?php //echo pwd_get_option('email'); ?></div>
+		<div class="mobilephone"><a href="tel:0892445323">(08) 9244 5323</a></div>
+	</div>
+	<div id="head" class="container-fluid">
+    
+    <div class="row-fluid"> 
+
+
+            <div class="warp2"> 
+
+                <div class="col-lg-2">
+                    <a class="sitelogo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> 
+                        <img src="<?php echo get_bloginfo('template_url'); ?>/images/logo.png" width="280" height="105" class="left" id="logo"> 
+                    </a>
+                </div>	
+
+                <div id="nav-mobile">
+                    <nav  id="nav">
+                        <?php wp_nav_menu( array( 'menu' => 'mobile menu' , 'depth'=>1 ) ); ?>
+                    </nav>
+                </div>
+
+
+                <script>
+                    var navigation = responsiveNav("#nav", {
+                        animate: true,        // Boolean: Use CSS3 transitions, true or false
+                        transition: 400,      // Integer: Speed of the transition, in milliseconds
+                        label: "",        // String: Label for the navigation toggle
+                        insert: "after",      // String: Insert the toggle before or after the navigation
+                        customToggle: "",     // Selector: Specify the ID of a custom toggle
+                        openPos: "relative",  // String: Position of the opened nav, relative or static
+                        jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
+                        init: function(){},   // Function: Init callback
+                        open: function(){},   // Function: Open callback
+                        close: function(){}   // Function: Close callback
+                    });
+                </script>	
+
+
+                <div class="col-lg-8">
+                    <nav role="navigation" class="site-navigation main-navigation ">
+
+                        <div class="assistive-text styleh1">
+                            <?php _e( 'Menu', 'pwd' ); ?>
+                        </div>
+
+                        <div class="assistive-text skip-link">
+                            <a href="#content" title="<?php esc_attr_e( 'Skip to content', 'pwd' ); ?>"><?php _e( 'Skip to content', 'pwd' ); ?></a>
+                        </div>
+
+                        <?php wp_nav_menu( array( 'menu' => 'main menu' ) ); ?>
+                        <?php //wp_nav_menu( array( 'theme_location' => 'primary' , 'sort_order' => 'DESC', 'orderby' => 'date' ) ); ?>
+
+                    </nav>
+                </div>
+
+
+                    <!-- .site-navigation .main-navigation -->
+
+    <!--
+                    <div id="info">
+
+                        <div class="right">
+                            <span class="title">Email</span> <a href="mailto:<?php // echo do_shortcode('[pwd_option id="email"]');?>" title="<?php // echo do_shortcode('[pwd_option id="email"]');?>"><?php // echo do_shortcode('[pwd_option id="email"]');?></a>
+                        </div>
+
+                        <div class="icon">
+                            <img src="<?php // echo get_bloginfo('template_url'); ?>/images/icon-tool.png" width="13" height="13" />
+                        </div>
+                        
+                        <div class="right">
+                            <span class="title">Phone</span><?php // echo do_shortcode('[pwd_option id="phone"]');?>
+                        </div>
+                        
+                        <div class="icon">
+                            <img src="<?php // echo get_bloginfo('template_url'); ?>/images/icon-tool.png" width="13" height="13" />
+                        </div>
+
+                    </div>
+    -->
+
+                <div class="col-lg-2">
+                    <div class="siteinfo">
+                        <a href="tel:0892445323">(08) 9244 5323</a>
+                        <a class="mail" href="mailto:info@dvinetours.com.au">info@dvinetours.com.au</a> <?php //echo pwd_get_option('email'); ?>
+                    </div>
+                </div>
+
+                <div id="tap_taketour"><a href="<?php echo get_bloginfo('url'); ?>/book-now/"><img src="<?php echo get_bloginfo('template_url'); ?>/images/booktour.png" width="155" height="177"></a></div>
+
+            </div>
+
+    </div>
+
+	</div>
+
+	<div class="clear"></div>
+
+	<div id="mobilemenu" class="hidden-xs">
+		<?php wp_nav_menu( array( 'menu' => 'mobile menu' , 'depth'=>1 ) ); ?>
+	</div>
+
+	<div class="clear"></div>
+	<?php
+	if(is_front_page()){ ?>
+	<?php get_template_part( 'inc/custom', 'slideshow' ); ?>
+	<?php }else if(is_archive()){ ?>
+	<?php get_template_part( 'inc/custom', 'inner-slide-archive' ); ?>
+	<?php }else{ ?>
+	<?php get_template_part( 'inc/custom', 'inner-slideshow' ); ?>
+	<?php }?>
+
+	<div class="line">
+		<div class="welcome">
+			<?php /*<a href="//www.dvinetours.com.au/book-now/">BOOK A TOUR</a>*/ ?>
+		</div>
+	</div>
