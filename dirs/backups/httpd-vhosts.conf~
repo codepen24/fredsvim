@@ -19,7 +19,17 @@
 </VirtualHost>
 
 <VirtualHost *:80>
-  ServerName dev.broods
+  ServerName dev.tyche
+  DocumentRoot "${INSTALL_DIR}/www/devs/tyche"
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName dev.ut
+  DocumentRoot "${INSTALL_DIR}/www/devs/ut"
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName dev.dvinetours
   DocumentRoot "${INSTALL_DIR}/www/devs/dvinetours"
 </VirtualHost>
 

@@ -285,7 +285,7 @@ footer .menu-footer-menu-container ul{list-style-type: none; padding: 0; margin:
 /*
 footer .menu-footer-menu-container ul li{display: inline-block; vertical-align: middle; margin: 10px 25px;}
  * */ 
-footer .menu-footer-menu-container ul li{display: inline-block; vertical-align: middle; margin: 10px 16px;}
+footer .menu-footer-menu-container ul li{display: inline-block; vertical-align: middle; margin: 10px;}
 .menu-footer-menu-container ul li a{color: #ffffff; font-weight: 300; font-size: 14px; text-transform: uppercase; padding: 0;}
 .menu-footer-menu-container ul li a:hover{color:#c1d92d;}
 .menu-footer-menu-container ul li a:before{display: none;}

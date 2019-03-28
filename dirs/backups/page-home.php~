@@ -27,10 +27,12 @@ get_header(); ?>
     	        <div class="row">
                     <div class="col-lg-6 left">
                         <div class="main">
-                            <span class="title">
-                                <?php echo $title; ?>
-                            </span>
-                            <a class="readmore" href="<?php echo $link; ?>">Read More</a>
+                            <div>
+                                <span class="title">
+                                    <?php echo $title; ?>
+                                </span>
+                                <a class="readmore" href="<?php echo $link; ?>">Read More</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 right">
@@ -80,14 +82,20 @@ $image = wp_get_attachment_image_src(get_sub_field('img'), 'full');
 					    $icon = get_sub_field('service_font_icon');
 					    $title = get_sub_field('service_title');
 					    $link = get_sub_field('service_page_link');
-
+                        $whatType = get_sub_field('select_icon_or_image');
+                        $services_image = wp_get_attachment_image_src(get_sub_field('services_image'), 'full');
 				    ?>
 				    
                     <div class="conbox">
                         <div class="serviceBox">
                             <a href="<?php echo $link['url']; ?>">
-                            <div class="s_icon"><?php echo $icon; ?></div>
-                            <h3 class="s_title"><?php echo $title; ?></h3>
+                            <?php if($whatType == 'icon'): ?>
+                                <div class="s_icon"><?php echo $icon; ?></div>
+                                <h3 class="s_title"><?php echo $title; ?></h3>
+                            <?php elseif($whatType == 'img'): ?>
+                                <img src="<?=$services_image[0];?>" width="<?=$services_image[1];?>" height="<?=$services_image[2];?>">
+                                <h3 class="s_title"><?php echo $title; ?></h3>
+                            <?php endif; ?>
                             </a>
                         </div>
                     </div>
@@ -112,7 +120,8 @@ $image = wp_get_attachment_image_src(get_sub_field('img'), 'full');
 			</div></div>
 			<div class="col-md-6 col-sm-12 introImg"> 
 				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>"/>
-				<!-- <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>"  class="freeimg" /> -->
+                <!-- <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>"  class="freeimg" /> -->
+                <div></div>
 			</div>
 		</div>
 	</div>

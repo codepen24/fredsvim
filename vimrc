@@ -22,9 +22,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'crusoexia/vim-monokai'
 Plug 'NLKNguyen/papercolor-theme'
-Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'Shougo/neocomplcache.vim'
-Plug 'mattn/emmet-vim' 
 Plug 'vim-airline/vim-airline' 
 Plug 'vim-airline/vim-airline-themes' 
 Plug 'scrooloose/syntastic' 
@@ -40,6 +38,12 @@ Plug 'hail2u/vim-css3-syntax'
 Plug 'tpope/vim-haml'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'arnaud-lb/vim-php-namespace'
+Plug 'tpope/vim-surround'
+
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'honza/vim-snippets'
+Plug 'garbas/vim-snipmate'
 
 call plug#end()
 
