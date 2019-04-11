@@ -1,0 +1,57 @@
+<!--/ Start Image Slider Container /-->
+<?php while ( have_posts() ) : the_post();
+
+$titlepage = get_the_title($ID);
+endwhile; // end of the loop. ?>
+<div id="inner-slidercontainer"> 
+	<!--/ Start Image Slider /-->
+	<div id="inner-sliderarea">
+		<ul id="inner-custom-slideshows" class="bxslider">
+			<?php
+
+			$args = array(
+				'post_type'		 	=> 'inner slideshow',
+				'orderby' 			=> 'menu_order',
+				'order'				=> 'ASC',
+				'posts_per_page' 	=> -1
+			);
+			$the_query = new WP_Query( $args );
+
+			if($the_query->post_count>0){
+
+				while ( $the_query->have_posts() ) : $the_query->the_post();
+					$src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 3000,250 ), false, '' );
+					$banner = $src[0];?>
+					<li class="slide" style="background:url(<?=$banner?>) center top repeat-x;">
+						<div class="textslide warp"><?php echo "Blog Archive" ?></div>
+					</li>
+				<?php endwhile;
+
+			} wp_reset_postdata();
+			?>
+		</ul>
+	</div>
+	<!--/ END Image Slider /--> 
+</div>
+<!--/ END Image Slider Container /--> 
+
+<script type="text/javascript">
+
+	( function( $ ) {
+
+		$(document).ready(function(){
+			$('#inner-custom-slideshows').bxSlider({
+				mode			: 'fade', 
+				infiniteLoop	: true, 
+				controls		: false, 
+				speed			: 1000,
+				pager			: false,
+				auto			: true, 
+				pause			: 5000,
+				touchEnabled   : false
+			});
+		});
+
+	} )( jQuery );
+
+</script> 

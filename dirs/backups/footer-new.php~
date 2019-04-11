@@ -1,0 +1,68 @@
+<?php
+
+/**
+ * The template for displaying the footer.
+ *
+ * Contains the closing of the id=main div and all content after
+ *
+ * @package DM Default Theme
+ * @since DM Default Theme 1.0
+ */
+
+?>
+
+<?php if(is_front_page() || is_page('6266')){ ?>
+
+
+<div class="instagram-feed">
+    <?php echo do_shortcode('[wdi_feed id="1"]'); ?>
+</div>
+
+<div class="form-wrapper">
+	<div class="container">
+		<?php echo do_shortcode("[gravityform id=2 title=true description=true]"); ?>
+	</div>
+</div>
+
+<?php } ?>
+
+
+
+</div><!-- #main .site-main -->
+
+<footer class="site-footer" role="contentinfo">
+	<div class="footer-content">
+		<div class="container">
+			<div id="footer-sidebar" class="row">
+				<?php dynamic_sidebar( 'sidebar-footer' ); ?>
+					<div class="widget_dm_socials_widget">
+						<ul class="socials">
+				            <!-- <li class="social google-plus"><a href="https://plus.google.com/+DvinetoursAu00" target="_blank"></a></li> -->
+				            <li class="social facebook"><a href="https://www.facebook.com/dvinetours/" target="_blank"></a></li>
+				            <li class="social instagram"><a href="https://www.instagram.com/dvinetours/" target="_blank"></a></li>
+				            <li class="social tripadvisor"><a href="https://www.tripadvisor.com.au/Attraction_Review-g255103-d5999307-Reviews-D_Vine_Wine_Tours-Perth_Greater_Perth_Western_Australia.html" target="_blank"></a></li>
+
+				        </ul>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="site-copyright">
+						<?php do_action( 'dm_copyright' ); ?> Website by <a href="http://www.digitalmonopoly.com.au" id="dmlogo" target="_blank">Digital Monopoly</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<?php wp_footer(); ?>
+
+</body>
+</html>

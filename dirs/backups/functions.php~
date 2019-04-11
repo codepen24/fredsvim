@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * PWD Default Theme functions and definitions
+ *
+ * @package PWD Default Theme
+ * @since PWD Default Theme 1.0
+ */
+
+require( get_template_directory() . '/inc/theme-setup.php' );
+require( get_template_directory() . '/inc/theme-shortcode.php' );
+require( get_template_directory() . '/inc/vc-custom.php' );
+require( get_template_directory() . '/inc/woocommerce-setup.php' );
+
+
+
+function pres($val) {
+    echo '<pre style=" padding: 1em; margin: 1em; border: solid 1px red; ">';
+    print_r($val);
+    echo '</pre>';
+}
+
+
+add_action('onlymembers', 'showloginsubscribers');
+
+function showloginsubscribers() {
+    $user = wp_get_current_user();
+    pres($user);
+    if ( in_array( 'subscriber', (array) $user->roles ) ) {
+        $user_stat = $user->roles[0];
+        if($user_stat == 'subscriber') {
+           echo do_shortcode('[swpm_login_form level=2]'); 
+        }
+    }
+}

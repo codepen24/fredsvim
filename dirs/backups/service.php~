@@ -1,0 +1,201 @@
+<?php
+/**
+ * Template Name: Service Page
+ * Template Post Type: page
+ *
+ * @package WordPress
+ * @subpackage Twenty_Sixteen
+ * @since Twenty Sixteen 1.0
+ */
+
+get_header(); ?>
+<?php 
+$image = get_field('banner_image'); ?>
+<section class="Inner_Banner" style="background: url('<?php echo $image["url"]; ?>');">
+<div class="bannerTitle">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 class="margin_0"><?php the_title(); ?></h1>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="innerSection aboutDesc">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-6 col-md-7 col-sm-12">
+                <h2 class="mainTitle m-b-0 m-t-0"><?php the_field('about_us_title'); ?></h2>
+                <div class="subTitleName"><?php the_field('about_us_title_second_line'); ?></div>
+                <?php the_field('about_us_description'); ?>
+			<div class="intro-callout">
+				<?php 
+					$pb1c = get_field('about_call_out');
+					$pb1l = get_field('about_call_out_1_url');
+					$pb2c = get_field('about_call_out_2');
+					$pb2l = get_field('about_call_out_2_url');
+				if($pb1l){ ?>
+					<a href="<?php echo $pb1l;?>" class="primary-btn"><?php echo $pb1c;?></a>
+				<?php }
+				if($pb2l){ ?>
+					<a href="<?php echo $pb2l;?>" class="primary-btn  ml-10"><?php echo $pb2c;?></a>
+				<?php }
+				?>
+			</div>	
+        </div>
+         <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-12">
+                    <div class="fullWidth">
+                        <?php 
+                            $image = get_field('about_us_image');
+                            if( !empty($image) ): ?>
+                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="" />
+                        <?php endif; ?>
+                    </div>
+            </div>
+    </div>
+    </div>
+</section>
+<section class="innerSection ServiceSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center"> <h2 class="title2 block-top"><?php the_field('our_single_service_title'); ?></h2></div>
+        </div>
+    </div>      
+    <div class="servicelistBg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <?php if( have_rows('our_single_service_row') ): ?>
+                    
+                    <?php while( have_rows('our_single_service_row') ): the_row(); 
+                        $icon = get_sub_field('service_font_icon');
+                        $title = get_sub_field('service_title');
+?>
+                    <div class="conbox">
+                        <div class="serviceBox">
+                            <div>
+                                <div class="s_icon"><?php echo $icon; ?></div>
+                            <h3 class="s_title"><?php echo $title; ?></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endwhile; ?>
+                    <?php endif; ?> 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="innerSection servicerec">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-7 col-md-6 col-sm-12">
+                        <?php 
+                            $image = get_field('about_second_image');
+                            if( !empty($image) ): ?>
+                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                        <?php endif; ?>
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-12 descriptionbox p-b-0">
+                <h2 class="subTitleName2"><?php the_field('about_us_second_title_second_line'); ?></h2>
+                <?php the_field('about_second_description'); ?>
+			
+        </div>
+    </div>
+    </div>
+</section>
+<section class="innerSection ServiceSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center"> <h2 class="mainTitle"><?php the_field('our_service_title', 'option'); ?></h2></div>
+        </div>
+    </div>      
+    <div class="servicelistBg2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 servicelistflex">
+                    <?php if( have_rows('our_service_row', 'option') ): ?>
+                    
+ 
+                        <?php while( have_rows('our_service_row', 'option') ): the_row(); 
+                        $icon = get_sub_field('service_font_icon', 'option');
+                        $title = get_sub_field('service_title', 'option');
+                        $link = get_sub_field('service_page_link', 'option');
+                        $whatType = get_sub_field('select_icon_or_image', 'option');
+                        $services_image = wp_get_attachment_image_src(get_sub_field('services_image'), 'full');
+                    ?>
+                    <div class="conbox">                    
+                        <div class="serviceBox">
+                            <a href="<?php echo $link['url'];?>">
+                            <?php if($whatType == 'icon'): ?>
+                                <div class="s_icon"><?php echo $icon; ?></div>
+                                <h3 class="s_title"><?php echo $title; ?></h3>
+                            <?php elseif($whatType == 'img'): ?>
+                                <img src="<?=$services_image[0];?>" width="<?=$services_image[1];?>" height="<?=$services_image[2];?>">
+                                <h3 class="s_title"><?php echo $title; ?></h3>
+                            <?php endif; ?>
+                            </a>
+                        </div>
+                    </div>
+                    <?php endwhile; ?>
+ 
+                    <?php endif; ?> 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="innerSection gallery-section m-b-0 p-b-0">
+    <div class="container-fluid">
+        <div class="row columns_padding_0">
+            <div class="col-sm-12"><h2 class="mainTitle text-center"><?php the_field('our_gallery_title', 'option'); ?></h2></div>
+            <div class="col-sm-12">
+                <?php if( have_rows('our_gallery_row', 'option') ): ?>
+                <div class="owl-carousel" data-margin="0" data-nav="true" data-items="7"
+                    data-responsive-xlg="7"
+                    data-responsive-lg="6"
+                    data-responsive-md="4"
+                    data-responsive-sm="3"
+                    data-responsive-xs="1"
+                >
+                <?php while( have_rows('our_gallery_row', 'option') ): the_row(); 
+                    $image = get_sub_field('our_gallery_image', 'option');
+                    $title = get_sub_field('our_gallery_image_title', 'option');
+
+                ?>
+                    <div class="vertical-item">
+                        <div class="item-media">
+                            
+                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
+                            <div class="media-links">
+                                <div class="links-wrap">
+                                    <h5><?php echo $title ?></h5>
+                                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="<?php echo $image['url']; ?>"></a>
+                                </div>
+                                <a class="abs-link" href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                <?php endwhile; ?>
+                <?php endif; ?> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer-callout">
+	<div class="container-fluid">
+		<?php the_field('call_out_text'); ?>
+	</div>
+</section>
+
+
+
+<?php get_footer(); ?>
