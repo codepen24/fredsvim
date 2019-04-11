@@ -347,6 +347,8 @@ set background=dark
 
 set wildmode=list:longest
 
+set splitright
+
 set cursorcolumn
 set cursorline
 
@@ -469,9 +471,20 @@ endfunction
 function! TaskMgr()
     :r!start /c/WINDOWS/system32/Taskmgr.exe
 endfunction
-
 nmap ,tk :call TaskMgr()<CR>
 
+function! Odu()
+    :r!start https://mail.google.com/mail/u/1/
+    :r!start https://dm.accelo.com/?action=task_board
+    :r!start /c/wamp64/wampmanager.exe
+
+    :cd /c/Program Files (x86)/Microsoft/Skype for Desktop
+    :r!start Skype.exe 
+
+    :r!start http://localhost/phpmyadmin
+
+endfunction
+nmap ,odu :call Odu()<CR>
 
 
 
