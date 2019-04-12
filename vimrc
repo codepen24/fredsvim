@@ -349,8 +349,16 @@ set wildmode=list:longest
 
 set splitright
 
+
+
 set cursorcolumn
+"autocmd InsertEnter * highlight CursorLine guibg=#000050 guifg=fg 
+"autocmd InsertLeave * highlight CursorLine guibg=#004000 guifg=fg 
 set cursorline
+"autocmd InsertEnter * highlight CursorColumn ctermfg=White ctermbg=Green cterm=bold guifg=white guibg=Green gui=bold
+"autocmd InsertLeave * highlight CursorColumn ctermfg=Black ctermbg=Green cterm=bold guifg=Black guibg=Green gui=NONE
+
+
 
 set number
 set norelativenumber  " turn relative line numbers off
