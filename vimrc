@@ -486,8 +486,10 @@ function! Odu()
     :r!start https://dm.accelo.com/?action=task_board
     :r!start /c/wamp64/wampmanager.exe
 
-    :cd /c/Program Files (x86)/Microsoft/Skype for Desktop
-    :r!start Skype.exe 
+    :r!start https://web.skype.com/
+
+    ":cd /c/Program Files (x86)/Microsoft/Skype for Desktop
+    ":r!start Skype.exe 
 
     :r!start http://localhost/phpmyadmin
 
