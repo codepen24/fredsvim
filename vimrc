@@ -403,6 +403,11 @@ map <C-Right> :tabn<CR>
 map <Backspace> :e#<CR>
 map <Space><Space> :q<CR>
 
+map <C-S-Up> :bn<CR>
+map <C-S-Down> :bp<CR>
+map <C-D> :bd<CR>
+map <C-l> :ls<CR>
+
 nmap ,vr :so ~/.vim/vimrc<CR>
 nmap ,l :r!ls<CR>
 nmap ,sql :r!start http://localhost/phpmyadmin<CR>
