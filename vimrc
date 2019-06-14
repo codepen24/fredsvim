@@ -428,7 +428,7 @@ nmap ,r :cfdo %s/xxx/xxx/g
 nmap ,u :cfdo update<CR>
 nmap ,wall :wall<CR>
 nmap ,rep :%s/xxx/xxx/g
-nmap ,sav :w<CR>
+nmap ,ss :w<CR>
 nmap ,k :r!
 nmap ,tl :r!start ~/.vim/task.log<CR> 
 nmap ,kk :set filetype=vim<CR>
@@ -446,7 +446,7 @@ nmap ,mm :set modifiable<CR>
 inoremap ;php <?php  ?><Esc>hhh<Esc><Esc>a
 inoremap ;class  class=""<Esc>
 imap jj <Esc>
-imap ,sav <Esc>:w<CR>
+imap ,ss <Esc>:w<CR>
 
 function! Desktop()
     :edit ~/desktop
