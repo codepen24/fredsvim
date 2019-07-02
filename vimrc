@@ -406,7 +406,7 @@ map <Space><Space> :q<CR>
 map <C-S-Up> :bn<CR>
 map <C-S-Down> :bp<CR>
 map <C-D> :bd<CR>
-map <C-l> :ls<CR>
+map <C-l-s> :ls<CR>
 
 nmap ,vr :so ~/.vim/vimrc<CR>
 nmap ,l :r!ls<CR>
@@ -445,6 +445,7 @@ nmap ,mm :set modifiable<CR>
 
 inoremap ;php <?php  ?><Esc>hhh<Esc><Esc>a
 inoremap ;class  class=""<Esc>
+
 imap jj <Esc>
 imap ,ss <Esc>:w<CR>
 
@@ -460,50 +461,15 @@ function! WwwPath()
 endfunction
 nmap ,www :call WwwPath()<CR>
 
-function! Gmoo()
-    :r!start www.gmail.com/
-endfunction
-nmap ,gl :call Gmoo()<CR>
-
 function! Skype()
     :r!start https://web.skype.com/en/
 endfunction
-nmap ,skype :call Skype()<CR>
-
-function! Dskype()
-    :cd /c/Program Files (x86)/Microsoft/Skype for Desktop
-    :r!start Skype.exe
-endfunction
-nmap ,dskype :call Dskype()<CR>
-
-function! ReFresh()
-    :edit
-endfunction
-
+nmap ,sky :call Skype()<CR>
 
 function! TaskMgr()
     :r!start /c/WINDOWS/system32/Taskmgr.exe
 endfunction
 nmap ,tk :call TaskMgr()<CR>
-
-function! Odu()
-    :r!start https://mail.google.com/mail/u/1/
-    :r!start https://dm.accelo.com/?action=task_board
-    :r!start /c/wamp64/wampmanager.exe
-
-    :r!start https://web.skype.com/
-
-    ":cd /c/Program Files (x86)/Microsoft/Skype for Desktop
-    ":r!start Skype.exe 
-
-    :r!start http://localhost/phpmyadmin
-
-endfunction
-nmap ,odu :call Odu()<CR>
-
-
-
-
 
 "b:hi Directory ctermfg=gray<CR>
 
