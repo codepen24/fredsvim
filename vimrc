@@ -462,7 +462,7 @@ endfunction
 nmap ,www :call WwwPath()<CR>
 
 function! Skype()
-    :r!start https://web.skype.com/en/
+    :r!start https://web.skype.com/
 endfunction
 nmap ,sky :call Skype()<CR>
 
