@@ -394,7 +394,6 @@ let g:netrw_dirhistmax=0 "disable it from creating netrw file
 colorscheme gruvbox
 "colorscheme monokai
 "colorscheme PaperColor
-"colorscheme dracula
 
 map <C-Up> :vertical resize +10<CR>
 map <C-Down> :vertical resize -10<CR>
@@ -432,14 +431,6 @@ nmap ,ss :w<CR>
 nmap ,k :r!
 nmap ,tl :r!start ~/.vim/task.log<CR> 
 nmap ,kk :set filetype=vim<CR>
-nmap ,1 :r!start http://dev1<CR>
-nmap ,2 :r!start http://dev2<CR>
-nmap ,3 :r!start http://dev3<CR>
-nmap ,4 :r!start http://dev4<CR>
-nmap ,5 :r!start http://dev5<CR>
-nmap ,6 :r!start http://dev6<CR>
-nmap ,7 :r!start http://dev7<CR>
-nmap ,8 :r!start http://dev8<CR>
 nmap ,bcss :%s/[{;}]/&\r/g|norm! =gg 
 nmap ,mm :set modifiable<CR>
 
