@@ -461,16 +461,6 @@ function! WwwPath()
 endfunction
 nmap ,www :call WwwPath()<CR>
 
-function! Skype()
-    :r!start https://web.skype.com/
-endfunction
-nmap ,sky :call Skype()<CR>
-
-function! TaskMgr()
-    :r!start /c/WINDOWS/system32/Taskmgr.exe
-endfunction
-nmap ,tk :call TaskMgr()<CR>
-
 "b:hi Directory ctermfg=gray<CR>
 
 "To delete file: use --- del PATH_TO_FILE
@@ -479,18 +469,3 @@ nmap ,tk :call TaskMgr()<CR>
 "use --- del /q PATH_TO_FOLDER\*.*
 "use --- for /d %i in (PATH_TO_FOLDER\*.*) do @rmdir /s /q "%i"
 "Reference: https://stackoverflow.com/questions/1502913/how-to-delete-all-files-and-folders-in-a-folder-by-cmd-call
-"
-"
-" jcd061719900**0221
-"
-"
-"
-"	//AJAX ready
-"	wp_localize_script( 'digipress-custom', 'frontEndAjax', array(
-"		'ajaxurl' => admin_url( 'admin-ajax.php' ),
-"		'nonce'   => wp_create_nonce( 'ajax_nonce' ),
-"	));
-"
-"
-"https://www.youtube.com/watch?v=OnUiHLYZgaA
-
