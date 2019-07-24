@@ -410,7 +410,6 @@ map <C-l-s> :ls<CR>
 nmap ,vr :so ~/.vim/vimrc<CR>
 nmap ,l :r!ls<CR>
 nmap ,sql :r!start http://localhost/phpmyadmin<CR>
-nmap ,wamp :r!start /c/wamp64/wampmanager.exe<CR>
 nmap ,tn :tabnew<CR>
 nmap ,vn :vnew<CR>
 nmap ,n :new<CR>
