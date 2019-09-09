@@ -391,24 +391,28 @@ endif
 
 let g:netrw_dirhistmax=0 "disable it from creating netrw file
 
-colorscheme gruvbox
+"colorscheme gruvbox
 "colorscheme monokai
-"colorscheme PaperColor
+colorscheme PaperColor
 
-map <C-Up> :vertical resize +10<CR>
-map <C-Down> :vertical resize -10<CR>
-map <C-Left> :tabp<CR>
-map <C-Right> :tabn<CR>
+map <C-k> :vertical resize +10<CR>
+map <C-j> :vertical resize -10<CR>
+map <C-h> :tabp<CR>
+map <C-l> :tabn<CR>
 map <Backspace> :e#<CR>
 map <Space><Space> :q<CR>
 
-map <C-S-Up> :bn<CR>
-map <C-S-Down> :bp<CR>
-map <C-D> :bd<CR>
-map <C-l-s> :ls<CR>
+nmap ,m <C-z>
+imap ,m <Esc><C-z>
 
+map <C-S-I> :bn<CR>
+map <C-S-U> :bp<CR>
+map <C-d> :bd<CR>
+
+nmap ,go :
 nmap ,vr :so ~/.vim/vimrc<CR>
 nmap ,l :r!ls<CR>
+nmap ,ls :ls<CR>
 nmap ,sql :r!start http://localhost/phpmyadmin<CR>
 nmap ,tn :tabnew<CR>
 nmap ,vn :vnew<CR>
