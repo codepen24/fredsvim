@@ -1,6 +1,6 @@
 ﻿" Fred's Vim
 " https://github.com/codepen24/fredsvim.git
-" version: 0.0.1
+" version: 0.0.2
 
 let vim_plug_just_installed = 0
 let vim_plug_path = expand('~/.vim/autoload/plug.vim')
