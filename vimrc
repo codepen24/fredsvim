@@ -341,8 +341,10 @@ let g:indentLine_enabled = 1
 
 
 
-
+" ++++++++++++++++++++++++++++++++++++++++++++
 " Fred's Setup Starts Here
+" ++++++++++++++++++++++++++++++++++++++++++++
+
 set background=dark 
 
 set wildmode=list:longest
@@ -422,7 +424,8 @@ nmap ,sp :sp<CR>
 nmap ,cp :copen<CR>
 nmap ,vim :find ~/.vim/vimrc<CR>
 nmap ,bash :edit ~/.bashrc<CR>
-nmap ,vh :edit /c/wamp64/bin/apache/apache2.4.27/conf/extra/httpd-vhosts.conf<CR>
+
+
 nmap ,h :edit /c/windows/system32/drivers/etc/hosts<CR>
 nmap ,, <C-w><C-w>
 nmap ,nf :vimgrep /xxx/gj **/*
@@ -448,6 +451,31 @@ function! Desktop()
     :cd ~/desktop
 endfunction
 nmap ,desk :call Desktop()<CR>
+
+" ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+" Area of modification
+" ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+"function! HtdocsPath()
+"    :cd /c/xampp/htdocs/devs/
+"    :edit /c/xampp/htdocs/devs/
+"endfunction
+"nmap ,www :call HtdocsPath()<CR>
+
+"nmap ,vh :edit /c/xampp/apache/conf/extra/httpd-vhosts.conf<CR>
+
+
+function! WwwPath()
+    :cd /c/wamp64/www/devs/
+    :edit /c/wamp64/www/devs/
+endfunction
+nmap ,www :call WwwPath()<CR>
+
+nmap ,vh :edit /c/wamp64/bin/apache/apache2.4.39/conf/extra/httpd-vhosts.conf<cr>
+
+
+
+
 
 
 "b:hi Directory ctermfg=gray<CR>
