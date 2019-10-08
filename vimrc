@@ -19,8 +19,6 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'morhetz/gruvbox'
-Plug 'crusoexia/vim-monokai'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'Shougo/neocomplcache.vim'
 Plug 'vim-airline/vim-airline' 
@@ -393,8 +391,6 @@ endif
 
 let g:netrw_dirhistmax=0 "disable it from creating netrw file
 
-"colorscheme gruvbox
-"colorscheme monokai
 colorscheme PaperColor
 
 map <C-k> :vertical resize +10<CR>
