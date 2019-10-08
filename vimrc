@@ -398,14 +398,14 @@ map <C-j> :vertical resize -10<CR>
 map <C-h> :tabp<CR>
 map <C-l> :tabn<CR>
 map <Backspace> :e#<CR>
-map <Space><Space> :q<CR>
+map <Space><Space> :bd<CR>
+map <Space><Space><Space> :q<CR>
 
 nmap ,m <C-z>
 imap ,m <Esc><C-z>
 
 map <C-S-I> :bn<CR>
 map <C-S-U> :bp<CR>
-map <C-d> :bd<CR>
 
 nmap ,go :
 nmap ,vr :so ~/.vim/vimrc<CR>
