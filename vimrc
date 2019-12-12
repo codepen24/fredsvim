@@ -421,6 +421,7 @@ nmap ,cp :copen<CR>
 nmap ,vim :find ~/.vim/vimrc<CR>
 nmap ,bash :edit ~/.bashrc<CR>
 
+:vnoremap qq <Esc>`>a'<Esc>`<i'<Esc>
 
 nmap ,h :edit /c/windows/system32/drivers/etc/hosts<CR>
 nmap ,, <C-w><C-w>
