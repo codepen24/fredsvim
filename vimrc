@@ -404,8 +404,8 @@ map <Space><Space><Space> :q<CR>
 nmap ,m <C-z>
 imap ,m <Esc><C-z>
 
-map <C-S-I> :bn<CR>
-map <C-S-U> :bp<CR>
+map <C-i> :bn<CR>
+map <C-u> :bp<CR>
 
 nmap ,go :
 nmap ,vr :so ~/.vim/vimrc<CR>
@@ -432,8 +432,6 @@ nmap ,wall :wall<CR>
 nmap ,rep :%s/xxx/xxx/g
 nmap ,ss :w<CR>
 nmap ,k :r!
-nmap ,tl :r!start ~/.vim/task.log<CR> 
-nmap ,kk :set filetype=vim<CR>
 nmap ,bcss :%s/[{;}]/&\r/g|norm! =gg 
 nmap ,mm :set modifiable<CR>
 nmap ,com 0i//  <Esc>0 
