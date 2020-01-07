@@ -436,9 +436,9 @@ nmap ,tl :r!start ~/.vim/task.log<CR>
 nmap ,kk :set filetype=vim<CR>
 nmap ,bcss :%s/[{;}]/&\r/g|norm! =gg 
 nmap ,mm :set modifiable<CR>
+nmap ,com 0i//  <Esc>0 
 
 inoremap ,php <?php  ?><Esc>hhh<Esc><Esc>a
-
 
 imap ,pr echo'<pre>'.print_r(, 1).'</pre>';<Esc>hhhhhhhhhhhhhh<Esc><Esc>a
 imap jj <Esc>
