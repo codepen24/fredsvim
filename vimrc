@@ -437,9 +437,10 @@ nmap ,kk :set filetype=vim<CR>
 nmap ,bcss :%s/[{;}]/&\r/g|norm! =gg 
 nmap ,mm :set modifiable<CR>
 
-inoremap ;php <?php  ?><Esc>hhh<Esc><Esc>a
-inoremap ;class  class=""<Esc>
+inoremap ,php <?php  ?><Esc>hhh<Esc><Esc>a
 
+
+imap ,pr echo'<pre>'.print_r(, 1).'</pre>';<Esc>hhhhhhhhhhhhhh<Esc><Esc>a
 imap jj <Esc>
 imap ,ss <Esc>:w<CR>
 
