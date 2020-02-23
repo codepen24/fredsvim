@@ -404,6 +404,10 @@ let g:netrw_liststyle=1 	" tree view
 " - let g:netrw_list_hide=netrw_gitignore#Hide()
 " - let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 
+map <S-H> <C-w><C-h>
+map <S-L> <C-w><C-l>
+map <S-I> <C-w><C-k>
+map <S-U> <C-w><C-j>
 map <C-k> :vertical resize +10<CR>
 map <C-j> :vertical resize -10<CR>
 map <C-h> :tabp<CR>
@@ -439,7 +443,8 @@ nmap ,, <C-w><C-w>
 nmap ,nf :vimgrep /xxx/gj **/*
 nmap ,r :cfdo %s/xxx/xxx/g
 nmap ,u :cfdo update<CR>
-nmap ,wall :wall<CR>
+nmap ,wl :wall<CR>
+nmap ,ql :qall<CR>
 nmap ,rep :%s/xxx/xxx/g
 nmap ,ss :w<CR>
 nmap ,k :r!
