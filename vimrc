@@ -476,6 +476,11 @@ nmap ,desk :call Desktop()<CR>
 
 "nmap ,vh :edit /c/xampp/apache/conf/extra/httpd-vhosts.conf<CR>
 
+function! WwuPath()
+    :cd /c/Users/codepen24/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/root/www/devs/
+    :edit /c/Users/codepen24/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/root/www/devs/
+endfunction
+nmap ,wwu :call WwuPath()<CR>
 
 function! WwwPath()
     :cd /c/wamp64/www/devs/
